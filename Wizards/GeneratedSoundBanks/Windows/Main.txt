@@ -1,0 +1,9 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1866025847	Footstep			\Default Work Unit\Footstep	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	263869928	Step02	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Windows\SFX\Footsteps_623A8C30.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard_Sounds\Footsteps\Step02		52632
+	646566718	Step04	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Windows\SFX\Footsteps_170B3316.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard_Sounds\Footsteps\Step04		39996
+	660467535	Step01	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Windows\SFX\Footsteps_589FEB35.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard_Sounds\Footsteps\Step01		42588
+	683091501	Step03	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Windows\SFX\Footsteps_1A04CD81.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard_Sounds\Footsteps\Step03		46800
+

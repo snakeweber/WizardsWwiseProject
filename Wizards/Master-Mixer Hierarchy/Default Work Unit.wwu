@@ -12,8 +12,8 @@
 				</Bus>
 				<Bus Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}">
 					<ReferenceList>
-						<Reference Name="AudioDevice" PluginName="Wwise Motion" CompanyID="0" PluginID="507" PluginType="7">
-							<ObjectRef Name="Default_Motion_Device" ID="{8AE8301A-8217-4F0F-B261-B258EBF97373}" WorkUnitID="{AD0CA4AE-47DD-4146-8F14-DC2EE7B60F7A}"/>
+						<Reference Name="AudioDevice" PluginName="System" CompanyID="0" PluginID="174" PluginType="7">
+							<ObjectRef Name="System" ID="{F1117ED9-BBD4-48B9-AB84-AA5DAC3F9626}" WorkUnitID="{AD0CA4AE-47DD-4146-8F14-DC2EE7B60F7A}"/>
 						</Reference>
 					</ReferenceList>
 				</Bus>
