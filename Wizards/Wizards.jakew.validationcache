@@ -47,14 +47,14 @@
 	<ValidationCacheItem File="D:\jakew\Documents\Wwise Audio Projects\Wizards\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1662042476" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\Wwise Audio Projects\Wizards\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1662046932" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Wizards.wproj" DateLow="1662654066" DateHigh="0"/>
-	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Wizards.jakew.wsettings" DateLow="1662654067" DateHigh="0"/>
+	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Wizards.jakew.wsettings" DateLow="1663211035" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Virtual Acoustics\Factory Acoustic Textures.wwu" DateLow="1660406388" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Virtual Acoustics\Default Work Unit.wwu" DateLow="1662042189" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Triggers\Default Work Unit.wwu" DateLow="1662042189" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Switches\Default Work Unit.wwu" DateLow="1662042189" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\States\Default Work Unit.wwu" DateLow="1662042189" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1662042189" DateHigh="0"/>
-	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\SoundBanks\Default Work Unit.wwu" DateLow="1662652938" DateHigh="0"/>
+	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\SoundBanks\Default Work Unit.wwu" DateLow="1663208835" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Queries\Factory Queries.wwu" DateLow="1660406388" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Queries\Default Work Unit.wwu" DateLow="1662042189" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Presets\Factory Spatial Audio.wwu" DateLow="1660406388" DateHigh="0"/>
@@ -68,7 +68,7 @@
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Game Parameters\Factory Soundseed Air Game Syncs.wwu" DateLow="1660406459" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Game Parameters\Factory Motion.wwu" DateLow="1660406460" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Game Parameters\Default Work Unit.wwu" DateLow="1662042189" DateHigh="0"/>
-	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Events\Default Work Unit.wwu" DateLow="1662652904" DateHigh="0"/>
+	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Events\Default Work Unit.wwu" DateLow="1663208835" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Effects\Factory Reflect.wwu" DateLow="1660406457" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Effects\Factory McDSP Effects.wwu" DateLow="1660406455" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Effects\Factory Mastering Suite.wwu" DateLow="1660406464" DateHigh="0"/>
@@ -89,11 +89,11 @@
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Audio Devices\Default Work Unit.wwu" DateLow="1662653917" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Attenuations\Default Work Unit.wwu" DateLow="1662042189" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Actor-Mixer Hierarchy\World Work Unit.wwu" DateLow="1662647679" DateHigh="0"/>
-	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Actor-Mixer Hierarchy\Wizard Work Unit.wwu" DateLow="1662647771" DateHigh="0"/>
+	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Actor-Mixer Hierarchy\Wizard Work Unit.wwu" DateLow="1663208835" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Actor-Mixer Hierarchy\Tower Work Unit.wwu" DateLow="1662647667" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1660406388" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Actor-Mixer Hierarchy\Factory Soundseed Air Objects.wwu" DateLow="1660406459" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Actor-Mixer Hierarchy\Factory Motion.wwu" DateLow="1662042476" DateHigh="0"/>
 	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Actor-Mixer Hierarchy\Enemy Work Unit.wwu" DateLow="1662647639" DateHigh="0"/>
-	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1662647771" DateHigh="0"/>
+	<ValidationCacheItem File="D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1663084423" DateHigh="0"/>
 </ValidationCache>

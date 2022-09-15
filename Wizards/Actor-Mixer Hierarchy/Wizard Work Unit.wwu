@@ -3,7 +3,7 @@
 	<AudioObjects>
 		<WorkUnit Name="Wizard Work Unit" ID="{955DBD1F-E096-4F40-8502-F78FFFC28923}" PersistMode="Standalone">
 			<ChildrenList>
-				<Folder Name="Wizard_Sounds" ID="{696898B6-4AD0-4DEF-8A99-4BCC9B7AA055}" ShortID="1008510124">
+				<Folder Name="Wizard Sounds" ID="{696898B6-4AD0-4DEF-8A99-4BCC9B7AA055}" ShortID="1008510124">
 					<ChildrenList>
 						<SwitchContainer Name="Wizard_Steps" ID="{20B0FEB3-F140-421A-875F-BC3416F62521}" ShortID="920767471">
 							<ReferenceList>

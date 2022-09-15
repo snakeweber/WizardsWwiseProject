@@ -8,12 +8,64 @@
 						<Action Name="" ID="{D103C6B5-99F5-4309-A58E-15F49609B927}" ShortID="305393713">
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Default" ID="{96891D3A-4CC3-4B64-83F6-4D14ED4D52A4}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+									<ObjectRef Name="Wizard_Steps" ID="{20B0FEB3-F140-421A-875F-BC3416F62521}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Folder Name="UI Sounds" ID="{6D641BAA-A9ED-4EB7-B795-E1F470EBF44F}" ShortID="112920485">
+					<ChildrenList>
+						<Folder Name="Wizard Select Noises" ID="{97011B9A-56F4-48A4-8A25-7A5D27177211}" ShortID="796951057">
+							<ChildrenList>
+								<Event Name="Pyromancer_select" ID="{7CAB0008-6D89-43E2-AFD8-448DF984A6BD}">
+									<ChildrenList>
+										<Action Name="" ID="{451DCFE4-4953-451A-9826-041E16021113}" ShortID="671221009">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Pyromancer_Select" ID="{03FE734C-76EE-4736-A38C-C1349C691FA0}" WorkUnitID="{FF931C5B-457C-487D-B7DF-4C681F6526F9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Abjurer_select" ID="{BE43AC4D-3CA9-4DA5-94F0-A93A356F58F3}">
+									<ChildrenList>
+										<Action Name="" ID="{99F581DF-8D48-4A6E-862E-C490D75C0294}" ShortID="335263196">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Abjurer_Select" ID="{83A6BC26-1662-45FD-BA96-CA14BA18B8F1}" WorkUnitID="{FF931C5B-457C-487D-B7DF-4C681F6526F9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Warlock_select" ID="{CC5091C2-DD66-4E22-9D52-F41B9D5C37DC}">
+									<ChildrenList>
+										<Action Name="" ID="{C5F40330-C7E1-4236-9503-F85E90FC97FA}" ShortID="545614517">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Warlock_Select" ID="{B8C11922-3E87-481E-A8B8-D16B486D71E8}" WorkUnitID="{FF931C5B-457C-487D-B7DF-4C681F6526F9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Alchemist_select" ID="{A8F4823B-3E98-4394-A008-154F13E5FD3A}">
+									<ChildrenList>
+										<Action Name="" ID="{421472CD-F648-4AFA-89DF-B06F66A30D0A}" ShortID="750607900">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Alchemist_Select" ID="{4BEFAAB3-ACA6-4106-8E99-A8F18CBDAAB6}" WorkUnitID="{FF931C5B-457C-487D-B7DF-4C681F6526F9}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
