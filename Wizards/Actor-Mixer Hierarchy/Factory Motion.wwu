@@ -5,7 +5,7 @@
 			<PropertyList>
 				<Property Name="Inclusion" Type="bool">
 					<ValueList>
-						<Value Platform="Mac">False</Value>
+						<Value Platform="Mac">True</Value>
 					</ValueList>
 				</Property>
 			</PropertyList>
@@ -16,7 +16,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}" WorkUnitID="{EC40B9D3-86D8-41C6-A75A-A40369084F59}"/>
+							<ObjectRef Name="Motion Factory Bus" ID="{2AF9B9C6-6EF1-46E9-B5F2-E30C9E602C74}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>

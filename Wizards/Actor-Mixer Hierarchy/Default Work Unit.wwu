@@ -7,64 +7,6 @@
 					<ChildrenList>
 						<Folder Name="Wizard Select Sounds" ID="{59A6C5AD-CE1D-4090-B39B-9C237E44A5C6}" ShortID="668642536">
 							<ChildrenList>
-								<Sound Name="Abjurer_Select" ID="{83A6BC26-1662-45FD-BA96-CA14BA18B8F1}" ShortID="420944793">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>2</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Abjurer_Select" ID="{71A62705-3446-4F8F-B7A9-D5715DCBA215}">
-											<Language>SFX</Language>
-											<AudioFile>Abjurer_Select.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="566077581"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Abjurer_Select" ID="{71A62705-3446-4F8F-B7A9-D5715DCBA215}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Pyromancer_Select" ID="{03FE734C-76EE-4736-A38C-C1349C691FA0}" ShortID="115924110">
-									<PropertyList>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>2</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Pyromancer_Select" ID="{55D6FC61-81AE-487E-9821-2A30524F14F9}">
-											<Language>SFX</Language>
-											<AudioFile>Pyromancer_Select.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="189521572"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Pyromancer_Select" ID="{55D6FC61-81AE-487E-9821-2A30524F14F9}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
 								<Sound Name="Warlock_Select" ID="{B8C11922-3E87-481E-A8B8-D16B486D71E8}" ShortID="20505200">
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -114,6 +56,50 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Alchemist_Select" ID="{D7718678-84C6-4740-9A03-EC36677ADB08}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Abjurer_Select" ID="{037765EE-BA49-4BEA-8909-3F2A9C1ED422}" ShortID="625237890">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Abjurer_Select" ID="{CE9532E0-BF3A-4FEF-9905-651C83852269}">
+											<Language>SFX</Language>
+											<AudioFile>Abjurer_Select.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="566077581"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Abjurer_Select" ID="{CE9532E0-BF3A-4FEF-9905-651C83852269}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Pyromancer_Select" ID="{3794FCC1-BF5E-4A50-8A14-15339545BE1F}" ShortID="584920239">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pyromancer_Select" ID="{A92370CF-B49D-4D50-ABDC-D2D0D111D37A}">
+											<Language>SFX</Language>
+											<AudioFile>Pyromancer_Select.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="189521572"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Pyromancer_Select" ID="{A92370CF-B49D-4D50-ABDC-D2D0D111D37A}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

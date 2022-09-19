@@ -13,6 +13,7 @@
 				<Language Name="SFX" ID="{DEE31125-6A6D-41A3-802D-33F96EC6471E}"/>
 			</LanguageList>
 			<PropertyList>
+				<Property Name="Color" Type="int16" Value="17"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
 						<Value Platform="Mac"></Value>

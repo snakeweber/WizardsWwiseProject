@@ -23,7 +23,7 @@
 										<Action Name="" ID="{451DCFE4-4953-451A-9826-041E16021113}" ShortID="671221009">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Pyromancer_Select" ID="{03FE734C-76EE-4736-A38C-C1349C691FA0}" WorkUnitID="{FF931C5B-457C-487D-B7DF-4C681F6526F9}"/>
+													<ObjectRef Name="Pyromancer_Select" ID="{3794FCC1-BF5E-4A50-8A14-15339545BE1F}" WorkUnitID="{FF931C5B-457C-487D-B7DF-4C681F6526F9}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -34,7 +34,7 @@
 										<Action Name="" ID="{99F581DF-8D48-4A6E-862E-C490D75C0294}" ShortID="335263196">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Abjurer_Select" ID="{83A6BC26-1662-45FD-BA96-CA14BA18B8F1}" WorkUnitID="{FF931C5B-457C-487D-B7DF-4C681F6526F9}"/>
+													<ObjectRef Name="Abjurer_Select" ID="{037765EE-BA49-4BEA-8909-3F2A9C1ED422}" WorkUnitID="{FF931C5B-457C-487D-B7DF-4C681F6526F9}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
