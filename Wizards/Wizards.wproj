@@ -4,7 +4,9 @@
 		<Project Name="Wizards" ID="{80281204-98ED-441C-9DE1-EE5D3E7213C6}">
 			<Platforms>
 				<Platform Name="Mac" ReferencePlatform="Mac" ID="{D7249F0D-C532-4627-A4B4-D3E450C8530C}"/>
+				<Platform Name="MacBackup" ReferencePlatform="Mac" ID="{584B43B1-1105-452D-AEC9-A181F97B11B3}"/>
 				<Platform Name="Windows" ReferencePlatform="Windows" ID="{88EB9026-88FA-4C8A-9E8A-C298B4BD843A}"/>
+				<Platform Name="WindowsBackup" ReferencePlatform="Windows" ID="{5D238213-A506-4002-A9E0-C11E1BBF107D}"/>
 			</Platforms>
 			<LanguageList>
 				<Language Name="English(US)" ID="{4413273F-F83B-489E-8705-CB9E2C18ECBE}"/>
@@ -16,48 +18,82 @@
 				<Property Name="Color" Type="int16" Value="17"/>
 				<Property Name="ExternalSourcesInputPath" Type="string">
 					<ValueList>
+						<Value Platform="WindowsBackup"></Value>
+						<Value Platform="MacBackup"></Value>
 						<Value Platform="Mac"></Value>
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="ExternalSourcesOutputPath" Type="string">
 					<ValueList>
+						<Value Platform="WindowsBackup">GeneratedSoundBanks\WindowsBackup</Value>
+						<Value Platform="MacBackup">GeneratedSoundBanks\MacBackup</Value>
 						<Value Platform="Mac">GeneratedSoundBanks\Mac</Value>
 						<Value Platform="Windows">GeneratedSoundBanks\Windows</Value>
 					</ValueList>
 				</Property>
+				<Property Name="GlobalVoiceInstancesLimit" Type="int16">
+					<ValueList>
+						<Value Platform="WindowsBackup">256</Value>
+						<Value Platform="MacBackup">256</Value>
+						<Value Platform="Mac">256</Value>
+						<Value Platform="Windows">256</Value>
+					</ValueList>
+				</Property>
 				<Property Name="SoundBankGenerateEstimatedDuration" Type="bool" Value="True"/>
+				<Property Name="SoundBankGenerateHeaderFile" Type="bool" Value="True"/>
+				<Property Name="SoundBankGeneratePrintPath" Type="bool" Value="True"/>
 				<Property Name="SoundBankHeaderFilePath" Type="string" Value="..\..\Wizards_Capstone\Assets\StreamingAssets\Audio\GeneratedSoundBanks"/>
 				<Property Name="SoundBankPaths" Type="string">
 					<ValueList>
-						<Value Platform="Mac">..\..\Wizards_Capstone\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Mac\</Value>
-						<Value Platform="Windows">..\..\Wizards_Capstone\Assets\StreamingAssets\Audio\GeneratedSoundBanks\Windows\</Value>
+						<Value Platform="WindowsBackup">GeneratedSoundBanks\WindowsBackup\</Value>
+						<Value Platform="MacBackup">GeneratedSoundBanks\MacBackup\</Value>
+						<Value Platform="Mac">GeneratedSoundBanks\Mac\</Value>
+						<Value Platform="Windows">GeneratedSoundBanks\Windows\</Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdDescription" Type="string">
 					<ValueList>
+						<Value Platform="WindowsBackup"></Value>
+						<Value Platform="MacBackup"></Value>
 						<Value Platform="Mac"></Value>
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPostGenerateCustomCmdLines" Type="string">
 					<ValueList>
+						<Value Platform="WindowsBackup"></Value>
+						<Value Platform="MacBackup"></Value>
 						<Value Platform="Mac"></Value>
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdDescription" Type="string">
 					<ValueList>
+						<Value Platform="WindowsBackup"></Value>
+						<Value Platform="MacBackup"></Value>
 						<Value Platform="Mac"></Value>
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
 				<Property Name="SoundBankPreGenerateCustomCmdLines" Type="string">
 					<ValueList>
+						<Value Platform="WindowsBackup"></Value>
+						<Value Platform="MacBackup"></Value>
 						<Value Platform="Mac"></Value>
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="SourceControlGeneratedFiles" Type="bool" Value="True"/>
+				<Property Name="VolumeThreshold" Type="Real64">
+					<ValueList>
+						<Value Platform="WindowsBackup">-80</Value>
+						<Value Platform="MacBackup">-80</Value>
+						<Value Platform="Mac">-80</Value>
+						<Value Platform="Windows">-80</Value>
+					</ValueList>
+				</Property>
+				<Property Name="WwiseConsoleLoadUserSettings" Type="bool" Value="True"/>
 				<Property Name="WwiseVersionWhenCreated" Type="string" Value="Branch=master|Build=7985|VersionName=v2022.1.0|Config=Release"/>
 			</PropertyList>
 			<MiscSettings>

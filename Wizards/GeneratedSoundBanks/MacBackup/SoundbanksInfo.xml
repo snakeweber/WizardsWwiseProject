@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="16" SoundBankVersion="144">
+<SoundBanksInfo Platform="MacBackup" BasePlatform="Mac" SchemaVersion="16" SoundBankVersion="144">
 	<RootPaths>
 		<ProjectRoot>../..</ProjectRoot>
-		<SourceFilesRoot>../../.cache/Windows</SourceFilesRoot>
+		<SourceFilesRoot>../../.cache/MacBackup</SourceFilesRoot>
 		<SoundBanksRoot>.</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
 		<ExternalSourcesOutputRoot>.</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{CA6ADA39-B658-E59F-5F5C-89634715BB11}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{7A695E5B-1BBB-5A9A-2919-5350EA70D95B}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -17,7 +17,6 @@
 				<AudioDevices>
 					<Plugin Id="2317455096" Name="No_Output" ObjectPath="\Audio Devices\Default Work Unit\No_Output" LibName="No Output" LibId="11862023"/>
 					<Plugin Id="3859886410" Name="System" ObjectPath="\Audio Devices\Default Work Unit\System" LibName="System" LibId="11403271"/>
-					<Plugin Id="4230635974" Name="Default_Motion_Device" ObjectPath="\Audio Devices\Default Work Unit\Default_Motion_Device" LibName="Wwise Motion" LibId="33226759"/>
 				</AudioDevices>
 			</Plugins>
 			<Busses>
@@ -200,5 +199,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{9772F027-4DC2-47D8-5124-49FB7CAC6460}</FileHash>
+	<FileHash>{6E275112-1CD7-8317-86AF-3F720686FFE4}</FileHash>
 </SoundBanksInfo>

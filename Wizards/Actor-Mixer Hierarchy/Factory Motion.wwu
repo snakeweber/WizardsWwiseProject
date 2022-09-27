@@ -5,6 +5,7 @@
 			<PropertyList>
 				<Property Name="Inclusion" Type="bool">
 					<ValueList>
+						<Value Platform="MacBackup">True</Value>
 						<Value Platform="Mac">True</Value>
 					</ValueList>
 				</Property>
@@ -42,6 +43,7 @@
 														<Property Name="Color" Type="int16" Value="5"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
+																<Value Platform="WindowsBackup">1</Value>
 																<Value Platform="Windows">1</Value>
 															</ValueList>
 														</Property>
@@ -71,6 +73,7 @@
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -312,6 +315,7 @@
 														<Property Name="Color" Type="int16" Value="5"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
+																<Value Platform="WindowsBackup">1</Value>
 																<Value Platform="Windows">1</Value>
 															</ValueList>
 														</Property>
@@ -341,6 +345,7 @@
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -582,6 +587,7 @@
 														<Property Name="Color" Type="int16" Value="5"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
+																<Value Platform="WindowsBackup">1</Value>
 																<Value Platform="Windows">1</Value>
 															</ValueList>
 														</Property>
@@ -611,6 +617,7 @@
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -866,6 +873,7 @@
 														<Property Name="Color" Type="int16" Value="5"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
+																<Value Platform="WindowsBackup">1</Value>
 																<Value Platform="Windows">1</Value>
 															</ValueList>
 														</Property>
@@ -895,6 +903,7 @@
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -1136,6 +1145,7 @@
 														<Property Name="Color" Type="int16" Value="5"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
+																<Value Platform="WindowsBackup">1</Value>
 																<Value Platform="Windows">1</Value>
 															</ValueList>
 														</Property>
@@ -1165,6 +1175,7 @@
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -1406,6 +1417,7 @@
 														<Property Name="Color" Type="int16" Value="5"/>
 														<Property Name="Volume" Type="Real64">
 															<ValueList>
+																<Value Platform="WindowsBackup">1</Value>
 																<Value Platform="Windows">1</Value>
 															</ValueList>
 														</Property>
@@ -1435,6 +1447,7 @@
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -1709,6 +1722,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -1826,6 +1840,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -1943,6 +1958,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -2072,6 +2088,7 @@
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -2190,6 +2207,7 @@
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -2308,6 +2326,7 @@
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -2433,6 +2452,7 @@
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -2551,6 +2571,7 @@
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -2669,6 +2690,7 @@
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -2774,6 +2796,7 @@
 												<Property Name="Color" Type="int16" Value="5"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
+														<Value Platform="WindowsBackup">1</Value>
 														<Value Platform="Windows">1</Value>
 													</ValueList>
 												</Property>
@@ -2804,6 +2827,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -2904,6 +2928,7 @@
 												<Property Name="Color" Type="int16" Value="5"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
+														<Value Platform="WindowsBackup">1</Value>
 														<Value Platform="Windows">1</Value>
 													</ValueList>
 												</Property>
@@ -2934,6 +2959,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -3034,6 +3060,7 @@
 												<Property Name="Color" Type="int16" Value="5"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
+														<Value Platform="WindowsBackup">1</Value>
 														<Value Platform="Windows">1</Value>
 													</ValueList>
 												</Property>
@@ -3064,6 +3091,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -3194,6 +3222,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -3305,6 +3334,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -3416,6 +3446,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -3510,6 +3541,7 @@
 												<Property Name="Color" Type="int16" Value="5"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
+														<Value Platform="WindowsBackup">1</Value>
 														<Value Platform="Windows">1</Value>
 													</ValueList>
 												</Property>
@@ -3539,6 +3571,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -3632,6 +3665,7 @@
 												<Property Name="Color" Type="int16" Value="5"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
+														<Value Platform="WindowsBackup">1</Value>
 														<Value Platform="Windows">1</Value>
 													</ValueList>
 												</Property>
@@ -3661,6 +3695,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -3765,6 +3800,7 @@
 												</Property>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
+														<Value Platform="WindowsBackup">1</Value>
 														<Value Platform="Windows">1</Value>
 													</ValueList>
 												</Property>
@@ -3794,6 +3830,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -3929,6 +3966,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -4217,6 +4255,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -4490,6 +4529,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -4637,6 +4677,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -4824,6 +4865,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -5019,6 +5061,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -5317,6 +5360,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -5577,6 +5621,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -5777,6 +5822,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -5939,6 +5985,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -6209,6 +6256,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -6373,6 +6421,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -6608,6 +6657,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -6722,6 +6772,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -6929,6 +6980,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -7218,6 +7270,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -7491,6 +7544,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -7802,6 +7856,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -8038,6 +8093,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -8289,6 +8345,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -8515,6 +8572,7 @@
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -8758,6 +8816,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -9030,6 +9089,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -9221,6 +9281,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -9355,6 +9416,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -9736,6 +9798,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 										<Property Name="Color" Type="int16" Value="5"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
+												<Value Platform="WindowsBackup">-3</Value>
 												<Value Platform="Windows">-3</Value>
 											</ValueList>
 										</Property>
@@ -9754,12 +9817,14 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 											<PropertyList>
 												<Property Name="Channel1" Type="int16">
 													<ValueList>
+														<Value Platform="WindowsBackup">4</Value>
 														<Value Platform="Windows">4</Value>
 													</ValueList>
 												</Property>
 												<Property Name="Channel2" Type="int16">
 													<ValueList>
 														<Value>1</Value>
+														<Value Platform="WindowsBackup">5</Value>
 														<Value Platform="Windows">5</Value>
 													</ValueList>
 												</Property>
@@ -9775,6 +9840,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 												</Property>
 												<Property Name="ChannelConfig" Type="int16">
 													<ValueList>
+														<Value Platform="WindowsBackup">7</Value>
 														<Value Platform="Windows">7</Value>
 													</ValueList>
 												</Property>
@@ -10136,12 +10202,14 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 											<PropertyList>
 												<Property Name="Channel1" Type="int16">
 													<ValueList>
+														<Value Platform="WindowsBackup">4</Value>
 														<Value Platform="Windows">4</Value>
 													</ValueList>
 												</Property>
 												<Property Name="Channel2" Type="int16">
 													<ValueList>
 														<Value>1</Value>
+														<Value Platform="WindowsBackup">5</Value>
 														<Value Platform="Windows">5</Value>
 													</ValueList>
 												</Property>
@@ -10157,6 +10225,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 												</Property>
 												<Property Name="ChannelConfig" Type="int16">
 													<ValueList>
+														<Value Platform="WindowsBackup">7</Value>
 														<Value Platform="Windows">7</Value>
 													</ValueList>
 												</Property>
@@ -10988,12 +11057,14 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 											<PropertyList>
 												<Property Name="Channel1" Type="int16">
 													<ValueList>
+														<Value Platform="WindowsBackup">4</Value>
 														<Value Platform="Windows">4</Value>
 													</ValueList>
 												</Property>
 												<Property Name="Channel2" Type="int16">
 													<ValueList>
 														<Value>1</Value>
+														<Value Platform="WindowsBackup">5</Value>
 														<Value Platform="Windows">5</Value>
 													</ValueList>
 												</Property>
@@ -11009,6 +11080,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 												</Property>
 												<Property Name="ChannelConfig" Type="int16">
 													<ValueList>
+														<Value Platform="WindowsBackup">7</Value>
 														<Value Platform="Windows">7</Value>
 													</ValueList>
 												</Property>
@@ -12179,12 +12251,14 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 											<PropertyList>
 												<Property Name="Channel1" Type="int16">
 													<ValueList>
+														<Value Platform="WindowsBackup">4</Value>
 														<Value Platform="Windows">4</Value>
 													</ValueList>
 												</Property>
 												<Property Name="Channel2" Type="int16">
 													<ValueList>
 														<Value>1</Value>
+														<Value Platform="WindowsBackup">5</Value>
 														<Value Platform="Windows">5</Value>
 													</ValueList>
 												</Property>
@@ -12200,6 +12274,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 												</Property>
 												<Property Name="ChannelConfig" Type="int16">
 													<ValueList>
+														<Value Platform="WindowsBackup">7</Value>
 														<Value Platform="Windows">7</Value>
 													</ValueList>
 												</Property>
@@ -12967,12 +13042,14 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 											<PropertyList>
 												<Property Name="Channel1" Type="int16">
 													<ValueList>
+														<Value Platform="WindowsBackup">4</Value>
 														<Value Platform="Windows">4</Value>
 													</ValueList>
 												</Property>
 												<Property Name="Channel2" Type="int16">
 													<ValueList>
 														<Value>1</Value>
+														<Value Platform="WindowsBackup">5</Value>
 														<Value Platform="Windows">5</Value>
 													</ValueList>
 												</Property>
@@ -12988,6 +13065,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 												</Property>
 												<Property Name="ChannelConfig" Type="int16">
 													<ValueList>
+														<Value Platform="WindowsBackup">7</Value>
 														<Value Platform="Windows">7</Value>
 													</ValueList>
 												</Property>
@@ -13820,12 +13898,14 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 											<PropertyList>
 												<Property Name="Channel1" Type="int16">
 													<ValueList>
+														<Value Platform="WindowsBackup">4</Value>
 														<Value Platform="Windows">4</Value>
 													</ValueList>
 												</Property>
 												<Property Name="Channel2" Type="int16">
 													<ValueList>
 														<Value>1</Value>
+														<Value Platform="WindowsBackup">5</Value>
 														<Value Platform="Windows">5</Value>
 													</ValueList>
 												</Property>
@@ -13841,6 +13921,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 												</Property>
 												<Property Name="ChannelConfig" Type="int16">
 													<ValueList>
+														<Value Platform="WindowsBackup">7</Value>
 														<Value Platform="Windows">7</Value>
 													</ValueList>
 												</Property>
@@ -14610,12 +14691,14 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 											<PropertyList>
 												<Property Name="Channel1" Type="int16">
 													<ValueList>
+														<Value Platform="WindowsBackup">4</Value>
 														<Value Platform="Windows">4</Value>
 													</ValueList>
 												</Property>
 												<Property Name="Channel2" Type="int16">
 													<ValueList>
 														<Value>1</Value>
+														<Value Platform="WindowsBackup">5</Value>
 														<Value Platform="Windows">5</Value>
 													</ValueList>
 												</Property>
@@ -14631,6 +14714,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 												</Property>
 												<Property Name="ChannelConfig" Type="int16">
 													<ValueList>
+														<Value Platform="WindowsBackup">7</Value>
 														<Value Platform="Windows">7</Value>
 													</ValueList>
 												</Property>
@@ -15758,12 +15842,14 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 											<PropertyList>
 												<Property Name="Channel1" Type="int16">
 													<ValueList>
+														<Value Platform="WindowsBackup">4</Value>
 														<Value Platform="Windows">4</Value>
 													</ValueList>
 												</Property>
 												<Property Name="Channel2" Type="int16">
 													<ValueList>
 														<Value>1</Value>
+														<Value Platform="WindowsBackup">5</Value>
 														<Value Platform="Windows">5</Value>
 													</ValueList>
 												</Property>
@@ -15779,6 +15865,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 												</Property>
 												<Property Name="ChannelConfig" Type="int16">
 													<ValueList>
+														<Value Platform="WindowsBackup">7</Value>
 														<Value Platform="Windows">7</Value>
 													</ValueList>
 												</Property>
@@ -17423,6 +17510,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 										<Property Name="Color" Type="int16" Value="5"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
+												<Value Platform="WindowsBackup">-1.5</Value>
 												<Value Platform="Windows">-1.5</Value>
 											</ValueList>
 										</Property>
@@ -17441,12 +17529,14 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 											<PropertyList>
 												<Property Name="Channel1" Type="int16">
 													<ValueList>
+														<Value Platform="WindowsBackup">4</Value>
 														<Value Platform="Windows">4</Value>
 													</ValueList>
 												</Property>
 												<Property Name="Channel2" Type="int16">
 													<ValueList>
 														<Value>1</Value>
+														<Value Platform="WindowsBackup">5</Value>
 														<Value Platform="Windows">5</Value>
 													</ValueList>
 												</Property>
@@ -17462,6 +17552,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 												</Property>
 												<Property Name="ChannelConfig" Type="int16">
 													<ValueList>
+														<Value Platform="WindowsBackup">7</Value>
 														<Value Platform="Windows">7</Value>
 													</ValueList>
 												</Property>
@@ -20468,12 +20559,14 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 											<PropertyList>
 												<Property Name="Channel1" Type="int16">
 													<ValueList>
+														<Value Platform="WindowsBackup">4</Value>
 														<Value Platform="Windows">4</Value>
 													</ValueList>
 												</Property>
 												<Property Name="Channel2" Type="int16">
 													<ValueList>
 														<Value>1</Value>
+														<Value Platform="WindowsBackup">5</Value>
 														<Value Platform="Windows">5</Value>
 													</ValueList>
 												</Property>
@@ -20489,6 +20582,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 												</Property>
 												<Property Name="ChannelConfig" Type="int16">
 													<ValueList>
+														<Value Platform="WindowsBackup">7</Value>
 														<Value Platform="Windows">7</Value>
 													</ValueList>
 												</Property>
@@ -21353,6 +21447,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -21557,6 +21652,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -21764,6 +21860,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -22013,6 +22110,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -22227,6 +22325,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -22337,6 +22436,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -22458,6 +22558,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -22568,6 +22669,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -22696,6 +22798,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -22896,6 +22999,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -23107,6 +23211,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -23307,6 +23412,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 																</Property>
 																<Property Name="ChannelConfig" Type="int16">
 																	<ValueList>
+																		<Value Platform="WindowsBackup">7</Value>
 																		<Value Platform="Windows">7</Value>
 																	</ValueList>
 																</Property>
@@ -23496,6 +23602,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 												<Property Name="Color" Type="int16" Value="5"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
+														<Value Platform="WindowsBackup">0</Value>
 														<Value Platform="Windows">0</Value>
 													</ValueList>
 												</Property>
@@ -23514,6 +23621,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 														<Property Name="Channel2" Type="int16">
 															<ValueList>
 																<Value>1</Value>
+																<Value Platform="WindowsBackup">2</Value>
 																<Value Platform="Windows">2</Value>
 															</ValueList>
 														</Property>
@@ -23529,6 +23637,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -23706,6 +23815,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 												<Property Name="Color" Type="int16" Value="5"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
+														<Value Platform="WindowsBackup">0</Value>
 														<Value Platform="Windows">0</Value>
 													</ValueList>
 												</Property>
@@ -23724,6 +23834,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 														<Property Name="Channel2" Type="int16">
 															<ValueList>
 																<Value>1</Value>
+																<Value Platform="WindowsBackup">2</Value>
 																<Value Platform="Windows">2</Value>
 															</ValueList>
 														</Property>
@@ -23739,6 +23850,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -23916,6 +24028,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 												<Property Name="Color" Type="int16" Value="5"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
+														<Value Platform="WindowsBackup">0</Value>
 														<Value Platform="Windows">0</Value>
 													</ValueList>
 												</Property>
@@ -23933,12 +24046,14 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 													<PropertyList>
 														<Property Name="Channel1" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">1</Value>
 																<Value Platform="Windows">1</Value>
 															</ValueList>
 														</Property>
 														<Property Name="Channel2" Type="int16">
 															<ValueList>
 																<Value>1</Value>
+																<Value Platform="WindowsBackup">3</Value>
 																<Value Platform="Windows">3</Value>
 															</ValueList>
 														</Property>
@@ -23954,6 +24069,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>
@@ -24132,6 +24248,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 												<Property Name="Color" Type="int16" Value="5"/>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
+														<Value Platform="WindowsBackup">0</Value>
 														<Value Platform="Windows">0</Value>
 													</ValueList>
 												</Property>
@@ -24149,12 +24266,14 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 													<PropertyList>
 														<Property Name="Channel1" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">1</Value>
 																<Value Platform="Windows">1</Value>
 															</ValueList>
 														</Property>
 														<Property Name="Channel2" Type="int16">
 															<ValueList>
 																<Value>1</Value>
+																<Value Platform="WindowsBackup">3</Value>
 																<Value Platform="Windows">3</Value>
 															</ValueList>
 														</Property>
@@ -24170,6 +24289,7 @@ Route your music, using an user-defined aux bus, to the Wwise Motion bus. </Comm
 														</Property>
 														<Property Name="ChannelConfig" Type="int16">
 															<ValueList>
+																<Value Platform="WindowsBackup">7</Value>
 																<Value Platform="Windows">7</Value>
 															</ValueList>
 														</Property>

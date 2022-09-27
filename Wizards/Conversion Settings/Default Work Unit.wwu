@@ -7,36 +7,52 @@
 					<PropertyList>
 						<Property Name="Channels" Type="int32">
 							<ValueList>
+								<Value Platform="WindowsBackup">4</Value>
+								<Value Platform="MacBackup">4</Value>
 								<Value Platform="Mac">4</Value>
 								<Value Platform="Windows">4</Value>
 							</ValueList>
 						</Property>
 						<Property Name="LRMix" Type="Real64">
 							<ValueList>
+								<Value Platform="WindowsBackup">0</Value>
+								<Value Platform="MacBackup">0</Value>
 								<Value Platform="Mac">0</Value>
 								<Value Platform="Windows">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MaxSampleRate" Type="int32">
 							<ValueList>
+								<Value Platform="WindowsBackup">0</Value>
+								<Value Platform="MacBackup">0</Value>
 								<Value Platform="Mac">0</Value>
 								<Value Platform="Windows">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="MinSampleRate" Type="int32">
 							<ValueList>
+								<Value Platform="WindowsBackup">0</Value>
+								<Value Platform="MacBackup">0</Value>
 								<Value Platform="Mac">0</Value>
 								<Value Platform="Windows">0</Value>
 							</ValueList>
 						</Property>
 						<Property Name="SampleRate" Type="int32">
 							<ValueList>
+								<Value Platform="WindowsBackup">0</Value>
+								<Value Platform="MacBackup">0</Value>
 								<Value Platform="Mac">0</Value>
 								<Value Platform="Windows">0</Value>
 							</ValueList>
 						</Property>
 					</PropertyList>
 					<ConversionPluginInfoList>
+						<ConversionPluginInfo Platform="WindowsBackup">
+							<ConversionPlugin Name="" ID="{027F23BE-3493-4AA1-9BA4-57BDB7D04B9C}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+						</ConversionPluginInfo>
+						<ConversionPluginInfo Platform="MacBackup">
+							<ConversionPlugin Name="" ID="{8AD01131-F935-4E7C-84A2-A3CBD2AD0956}" PluginName="PCM" CompanyID="0" PluginID="1"/>
+						</ConversionPluginInfo>
 						<ConversionPluginInfo Platform="Mac">
 							<ConversionPlugin Name="" ID="{4F78B61E-375F-4E8E-BBEF-66347C3F7186}" PluginName="PCM" CompanyID="0" PluginID="1"/>
 						</ConversionPluginInfo>

@@ -1,9 +1,13 @@
 Event	ID	Name			Wwise Object Path	Notes
+	16655299	Warlock_select			\Default Work Unit\UI Sounds\Wizard Select Noises\Warlock_select	
+	159242366	Alchemist_select			\Default Work Unit\UI Sounds\Wizard Select Noises\Alchemist_select	
 	1866025847	Footstep			\Default Work Unit\Footstep	
+	3744568021	Abjurer_select			\Default Work Unit\UI Sounds\Wizard Select Noises\Abjurer_select	
+	4121134294	Pyromancer_select			\Default Work Unit\UI Sounds\Wizard Select Noises\Pyromancer_select	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	263869928	Step02	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Windows\SFX\Footsteps_623A8C30.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard_Sounds\Footsteps\Step02		52632
-	646566718	Step04	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Windows\SFX\Footsteps_170B3316.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard_Sounds\Footsteps\Step04		39996
-	660467535	Step01	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Windows\SFX\Footsteps_589FEB35.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard_Sounds\Footsteps\Step01		42588
-	683091501	Step03	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Windows\SFX\Footsteps_1A04CD81.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard_Sounds\Footsteps\Step03		46800
+	189521572	Pyromancer_Select	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Windows\SFX\Pyromancer_Select_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Sounds\Wizard Select Sounds\Pyromancer_Select		796392
+	566077581	Abjurer_Select	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Windows\SFX\Abjurer_Select_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Sounds\Wizard Select Sounds\Abjurer_Select		793944
+	1053668598	Warlock_Select	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Windows\SFX\Warlock_Select_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Sounds\Wizard Select Sounds\Warlock_Select		529344
+	1063365658	Alchemist_Select	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Windows\SFX\Alchemist_Select_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Sounds\Wizard Select Sounds\Alchemist_Select		472644
 

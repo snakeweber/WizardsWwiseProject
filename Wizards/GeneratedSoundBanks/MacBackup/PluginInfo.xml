@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PluginInfo Platform="MacBackup" BasePlatform="Mac">
+	<PluginLibs>
+		<PluginLib LibName="System" LibId="11403271" Type="AudioDevice"/>
+		<PluginLib LibName="No Output" LibId="11862023" Type="AudioDevice"/>
+	</PluginLibs>
+	<FileHash>{DAC0BD37-7A3D-712A-C498-0EB04086EE5F}</FileHash>
+</PluginInfo>
