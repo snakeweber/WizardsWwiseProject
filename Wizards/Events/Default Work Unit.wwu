@@ -66,6 +66,95 @@
 						</Folder>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Placeholder" ID="{D94A374D-89EF-40C8-9AD4-31A6F7CA4880}">
+					<ChildrenList>
+						<Action Name="" ID="{1BD88F59-0D40-4321-B054-16578BCF2DE6}" ShortID="297279623">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="placeholder" ID="{DBA07C8A-E33B-49C7-9E72-7A37D2E85958}" WorkUnitID="{FF931C5B-457C-487D-B7DF-4C681F6526F9}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Folder Name="Wizard Sounds" ID="{501B5A26-5B7A-4D64-896B-A5FA47D59E88}" ShortID="249179446">
+					<ChildrenList>
+						<Folder Name="Pyromancer" ID="{8342A13D-1876-44FD-AA2E-98BBC1A5A026}" ShortID="90266602">
+							<ChildrenList>
+								<Event Name="Flame_bolt" ID="{EA403204-A798-4328-87BB-5AFD0DF43B00}">
+									<ChildrenList>
+										<Action Name="" ID="{18A581E5-0073-4E0F-86B5-82533B4B39D1}" ShortID="655298265">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flame Blast" ID="{7366A3BE-8766-414F-80BA-A2F4CD9180FD}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Pyro_blast" ID="{DCA44C5C-F7C3-4240-89D8-180CFEA81C87}">
+									<ChildrenList>
+										<Action Name="" ID="{0181D622-8200-49FC-A42D-4FDB7805A05F}" ShortID="809711470">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flare Bolt" ID="{B8CEA57D-4183-4210-A063-57FB294F73E8}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Fire_burn" ID="{DE4A7240-F5C5-4861-A048-D5EC0087160E}">
+									<ChildrenList>
+										<Action Name="" ID="{23F102D3-3762-4AAF-9450-4C45E69F8632}" ShortID="903827311">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Fire sounds 01" ID="{AD795D24-7632-425C-91BD-F271986C37E3}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Fireball_impact" ID="{899E94D1-7D57-462D-A234-E9101893C0E3}">
+									<ChildrenList>
+										<Action Name="" ID="{AE0145A8-0459-436A-A654-527661F55865}" ShortID="682309955">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Fireball Impact" ID="{B250C21E-AB22-4925-9DC3-3E6CC8B6EB59}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Enemy Sounds" ID="{81A1DCEA-52CA-4E65-A61F-BDB46F8F40CD}" ShortID="849713142">
+					<ChildrenList>
+						<Event Name="Enemy_hit" ID="{78D94442-3E3A-481E-ADA1-F676294EAC89}">
+							<ChildrenList>
+								<Action Name="" ID="{BE55E24B-B20D-4772-AAA3-8054A3A5FDC9}" ShortID="18954577">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="hit" ID="{EDAD2FD9-E110-42EC-A529-2DFFFC4AA8B7}" WorkUnitID="{CD3408BF-4DB1-4704-8783-4CEAA59D44BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Enemy_die" ID="{0B55AE0E-C5D9-40F6-945C-EA134B7776BD}">
+							<ChildrenList>
+								<Action Name="" ID="{7C2BF9A3-0B37-4087-8C89-EB5B372FB957}" ShortID="1070497788">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="die" ID="{373BF158-28DA-466C-8176-3504AE7D2875}" WorkUnitID="{CD3408BF-4DB1-4704-8783-4CEAA59D44BE}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

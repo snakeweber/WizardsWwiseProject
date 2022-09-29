@@ -1,6 +1,67 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{CD3408BF-4DB1-4704-8783-4CEAA59D44BE}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Enemy Work Unit" ID="{CD3408BF-4DB1-4704-8783-4CEAA59D44BE}" PersistMode="Standalone"/>
+		<WorkUnit Name="Enemy Work Unit" ID="{CD3408BF-4DB1-4704-8783-4CEAA59D44BE}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="die" ID="{373BF158-28DA-466C-8176-3504AE7D2875}" ShortID="607283615">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-1</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="die" ID="{3DA9D30D-AEB0-4044-BEFA-E8474E662971}">
+							<Language>SFX</Language>
+							<AudioFile>die.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="21836415"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="die" ID="{3DA9D30D-AEB0-4044-BEFA-E8474E662971}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="hit" ID="{EDAD2FD9-E110-42EC-A529-2DFFFC4AA8B7}" ShortID="1035847814">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="hit" ID="{D2BB0363-62BA-4D98-86B2-4399700D807F}">
+							<Language>SFX</Language>
+							<AudioFile>hit.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="1018927324"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="hit" ID="{D2BB0363-62BA-4D98-86B2-4399700D807F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

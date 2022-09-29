@@ -1,13 +1,27 @@
 Event	ID	Name			Wwise Object Path	Notes
 	16655299	Warlock_select			\Default Work Unit\UI Sounds\Wizard Select Noises\Warlock_select	
 	159242366	Alchemist_select			\Default Work Unit\UI Sounds\Wizard Select Noises\Alchemist_select	
+	1010055213	Enemy_hit			\Default Work Unit\Enemy Sounds\Enemy_hit	
+	1142304696	Enemy_die			\Default Work Unit\Enemy Sounds\Enemy_die	
+	1548734028	Placeholder			\Default Work Unit\Placeholder	
+	1622227216	Flame_bolt			\Default Work Unit\Wizard Sounds\Pyromancer\Flame_bolt	
 	1866025847	Footstep			\Default Work Unit\Footstep	
+	2975203331	Fireball_impact			\Default Work Unit\Wizard Sounds\Pyromancer\Fireball_impact	
 	3744568021	Abjurer_select			\Default Work Unit\UI Sounds\Wizard Select Noises\Abjurer_select	
+	4080679518	Pyro_blast			\Default Work Unit\Wizard Sounds\Pyromancer\Pyro_blast	
 	4121134294	Pyromancer_select			\Default Work Unit\UI Sounds\Wizard Select Noises\Pyromancer_select	
+	4136547507	Fire_burn			\Default Work Unit\Wizard Sounds\Pyromancer\Fire_burn	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	21836415	die	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Mac\SFX\die_10C4C929.wem		\Actor-Mixer Hierarchy\Enemy Work Unit\die		196048
+	86987482	placeholder	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Mac\SFX\placeholder_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\placeholder		135836
 	189521572	Pyromancer_Select	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Mac\SFX\Pyromancer_Select_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Sounds\Wizard Select Sounds\Pyromancer_Select		796392
+	328303304	Flame Blast	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Mac\SFX\Flame Blast_10C4C929.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard Sounds\Pyromancer\Flame Blast		347856
+	526166105	Fire sounds 01	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Mac\SFX\Fire sounds 01_10C4C929.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard Sounds\Pyromancer\Fire sounds 01		2605436
 	566077581	Abjurer_Select	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Mac\SFX\Abjurer_Select_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Sounds\Wizard Select Sounds\Abjurer_Select		793944
+	856057212	Fireball Impact	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Mac\SFX\Fireball Impact_10C4C929.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard Sounds\Pyromancer\Fireball Impact		783768
+	1018927324	hit	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Mac\SFX\hit_10C4C929.wem		\Actor-Mixer Hierarchy\Enemy Work Unit\hit		89192
+	1048310867	Flare Bolt	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Mac\SFX\Flare Bolt_10C4C929.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard Sounds\Pyromancer\Flare Bolt		283400
 	1053668598	Warlock_Select	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Mac\SFX\Warlock_Select_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Sounds\Wizard Select Sounds\Warlock_Select		529344
 	1063365658	Alchemist_Select	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\Mac\SFX\Alchemist_Select_10C4C929.wem		\Actor-Mixer Hierarchy\Default Work Unit\UI Sounds\Wizard Select Sounds\Alchemist_Select		472644
 

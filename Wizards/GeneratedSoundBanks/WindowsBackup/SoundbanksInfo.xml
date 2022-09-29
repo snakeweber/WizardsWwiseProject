@@ -153,18 +153,46 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{B8D788FF-8D37-4ECE-0202-117F30583AA9}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{98344884-D9A3-52C4-C983-A07DAC85C7BD}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
+				<File Id="21836415" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>die.wav</ShortName>
+					<CachePath>SFX/die_10C4C929.wem</CachePath>
+				</File>
+				<File Id="86987482" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>placeholder.wav</ShortName>
+					<CachePath>SFX/placeholder_10C4C929.wem</CachePath>
+				</File>
 				<File Id="189521572" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pyromancer_Select.wav</ShortName>
 					<CachePath>SFX/Pyromancer_Select_10C4C929.wem</CachePath>
 				</File>
+				<File Id="328303304" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Flame Blast.wav</ShortName>
+					<CachePath>SFX/Flame Blast_10C4C929.wem</CachePath>
+				</File>
+				<File Id="526166105" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fire sounds 01.wav</ShortName>
+					<CachePath>SFX/Fire sounds 01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="566077581" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Abjurer_Select.wav</ShortName>
 					<CachePath>SFX/Abjurer_Select_10C4C929.wem</CachePath>
+				</File>
+				<File Id="856057212" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fireball Impact.wav</ShortName>
+					<CachePath>SFX/Fireball Impact_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1018927324" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>hit.wav</ShortName>
+					<CachePath>SFX/hit_10C4C929.wem</CachePath>
+				</File>
+				<File Id="1048310867" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Flare Bolt.wav</ShortName>
+					<CachePath>SFX/Flare Bolt_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1053668598" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Warlock_Select.wav</ShortName>
@@ -186,7 +214,42 @@
 						<MediaRef Id="1063365658"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="1142304696" Name="Enemy_die" ObjectPath="\Events\Default Work Unit\Enemy Sounds\Enemy_die" DurationType="OneShot" DurationMin="1.1105669" DurationMax="1.1105669">
+					<MediaRefs>
+						<MediaRef Id="21836415"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1010055213" Name="Enemy_hit" ObjectPath="\Events\Default Work Unit\Enemy Sounds\Enemy_hit" DurationType="OneShot" DurationMin="0.50480723" DurationMax="0.50480723">
+					<MediaRefs>
+						<MediaRef Id="1018927324"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4136547507" Name="Fire_burn" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Pyromancer\Fire_burn" DurationType="OneShot" DurationMin="14.769229" DurationMax="14.769229">
+					<MediaRefs>
+						<MediaRef Id="526166105"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2975203331" Name="Fireball_impact" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Pyromancer\Fireball_impact" DurationType="OneShot" DurationMin="4.4423127" DurationMax="4.4423127">
+					<MediaRefs>
+						<MediaRef Id="856057212"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1622227216" Name="Flame_bolt" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Pyromancer\Flame_bolt" DurationType="OneShot" DurationMin="1.7561008" DurationMax="2.2125483">
+					<MediaRefs>
+						<MediaRef Id="328303304"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1548734028" Name="Placeholder" ObjectPath="\Events\Default Work Unit\Placeholder" DurationType="OneShot" DurationMin="0.76922905" DurationMax="0.76922905">
+					<MediaRefs>
+						<MediaRef Id="86987482"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4080679518" Name="Pyro_blast" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Pyromancer\Pyro_blast" DurationType="OneShot" DurationMin="1.4305692" DurationMax="1.8024042">
+					<MediaRefs>
+						<MediaRef Id="1048310867"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4121134294" Name="Pyromancer_select" ObjectPath="\Events\Default Work Unit\UI Sounds\Wizard Select Noises\Pyromancer_select" DurationType="OneShot" DurationMin="4.5138774" DurationMax="4.5138774">
 					<MediaRefs>
 						<MediaRef Id="189521572"/>
@@ -200,5 +263,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{3534DEDA-0CD2-4E9E-1B70-8838675479A6}</FileHash>
+	<FileHash>{A6F4C033-0E43-1DE6-4C15-AC9A788C2111}</FileHash>
 </SoundBanksInfo>
