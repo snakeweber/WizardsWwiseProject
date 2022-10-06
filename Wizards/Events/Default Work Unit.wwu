@@ -155,6 +155,35 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Music" ID="{AC2EF10C-2DDC-4467-AE71-6E3B6A05FFAE}" ShortID="780262699">
+					<ChildrenList>
+						<Event Name="Placeholder_music" ID="{F4E1E24A-9A1D-4C6D-BA31-6E9AC6734BBD}">
+							<ChildrenList>
+								<Action Name="" ID="{1023F64D-B21C-4D8B-AE43-D2B1EDA496B4}" ShortID="325720284">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TempLobbyMusic" ID="{8F7BFA03-1B93-4DBB-83A4-976BB4283299}" WorkUnitID="{FC04DB0B-925C-4DCE-8F79-037505087228}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Stop_music" ID="{36AA72E1-91F5-451F-AB6A-5C84C8F9BD5F}">
+							<ChildrenList>
+								<Action Name="" ID="{96D711BC-3ED0-490A-AD05-791CD9751BD4}" ShortID="167999245">
+									<PropertyList>
+										<Property Name="ActionType" Type="int16" Value="2"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="TempLobbyMusic" ID="{8F7BFA03-1B93-4DBB-83A4-976BB4283299}" WorkUnitID="{FC04DB0B-925C-4DCE-8F79-037505087228}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

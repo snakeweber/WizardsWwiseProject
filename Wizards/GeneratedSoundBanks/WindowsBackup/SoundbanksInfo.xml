@@ -153,7 +153,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{98344884-D9A3-52C4-C983-A07DAC85C7BD}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A3454CBF-4EBF-8E8A-58EB-E1F398AAD9F9}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -173,6 +173,10 @@
 				<File Id="328303304" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Flame Blast.wav</ShortName>
 					<CachePath>SFX/Flame Blast_10C4C929.wem</CachePath>
+				</File>
+				<File Id="501470000" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>TempLobbyMusic.wav</ShortName>
+					<CachePath>SFX/TempLobbyMusic_10C4C929.wem</CachePath>
 				</File>
 				<File Id="526166105" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fire sounds 01.wav</ShortName>
@@ -245,6 +249,11 @@
 						<MediaRef Id="86987482"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3117053400" Name="Placeholder_music" ObjectPath="\Events\Default Work Unit\Music\Placeholder_music" DurationType="OneShot" DurationMin="31.39424" DurationMax="31.39424">
+					<MediaRefs>
+						<MediaRef Id="501470000"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="4080679518" Name="Pyro_blast" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Pyromancer\Pyro_blast" DurationType="OneShot" DurationMin="1.4305692" DurationMax="1.8024042">
 					<MediaRefs>
 						<MediaRef Id="1048310867"/>
@@ -255,6 +264,7 @@
 						<MediaRef Id="189521572"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="2837384057" Name="Stop_music" ObjectPath="\Events\Default Work Unit\Music\Stop_music" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
 				<Event Id="16655299" Name="Warlock_select" ObjectPath="\Events\Default Work Unit\UI Sounds\Wizard Select Noises\Warlock_select" DurationType="OneShot" DurationMin="3" DurationMax="3">
 					<MediaRefs>
 						<MediaRef Id="1053668598"/>
@@ -263,5 +273,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A6F4C033-0E43-1DE6-4C15-AC9A788C2111}</FileHash>
+	<FileHash>{0E563985-FE70-B5E7-DD15-5EB5B000AE62}</FileHash>
 </SoundBanksInfo>

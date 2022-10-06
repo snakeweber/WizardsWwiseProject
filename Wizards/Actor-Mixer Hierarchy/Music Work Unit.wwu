@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{FC04DB0B-925C-4DCE-8F79-037505087228}" SchemaVersion="110">
+	<AudioObjects>
+		<WorkUnit Name="Music Work Unit" ID="{FC04DB0B-925C-4DCE-8F79-037505087228}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="placeholderMusic" ID="{B662DC3D-C5B1-46D5-ADE6-4968E44B018D}" ShortID="730996902">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="placeholderMusic" ID="{47FCC887-BC9A-44D9-A0AD-D34439396B95}">
+							<Language>SFX</Language>
+							<AudioFile>placeholderMusic.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="850711041"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="placeholderMusic" ID="{47FCC887-BC9A-44D9-A0AD-D34439396B95}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="TempLobbyMusic" ID="{8F7BFA03-1B93-4DBB-83A4-976BB4283299}" ShortID="460576417">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="TempLobbyMusic" ID="{E29C510F-A0CF-4E94-AB40-18792E708A0A}">
+							<Language>SFX</Language>
+							<AudioFile>TempLobbyMusic.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="501470000"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="TempLobbyMusic" ID="{E29C510F-A0CF-4E94-AB40-18792E708A0A}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>
