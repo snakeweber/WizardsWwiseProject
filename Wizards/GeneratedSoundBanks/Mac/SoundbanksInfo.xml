@@ -152,7 +152,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{A3454CBF-4EBF-8E8A-58EB-E1F398AAD9F9}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0922C360-3BE3-6EE8-C19E-5DDE24B0CB55}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -272,5 +272,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{907ACF21-CD15-49C1-E70E-31754FE78F54}</FileHash>
+	<FileHash>{CB137EAD-F3E3-DD77-7444-A5B65CEBC350}</FileHash>
 </SoundBanksInfo>
