@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{7A695E5B-1BBB-5A9A-2919-5350EA70D95B}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B7DBB6E3-4312-5D89-9BDA-0654F2E41A70}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -36,6 +36,7 @@
 				<GameParameter Id="3715662592" Name="SS_Air_Storm" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Storm"/>
 				<GameParameter Id="3847924954" Name="SS_Air_Presence" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Presence"/>
 				<GameParameter Id="4160247818" Name="SS_Air_Turbulence" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Turbulence"/>
+				<GameParameter Id="4179668880" Name="Master_Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume\Master_Volume"/>
 			</GameParameters>
 			<AcousticTextures>
 				<AcousticTexture Id="504532776" Name="Brick" ObjectPath="\Virtual Acoustics\Factory Acoustic Textures\Textures\Brick">
@@ -152,14 +153,18 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0922C360-3BE3-6EE8-C19E-5DDE24B0CB55}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0A7D4CA2-5F30-2BE5-A176-DF192DA311D3}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
 			<Media>
-				<File Id="21836415" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>die.wav</ShortName>
-					<CachePath>SFX/die_10C4C929.wem</CachePath>
+				<File Id="29729184" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shield_Cast.wav</ShortName>
+					<CachePath>SFX/Shield_Cast_10C4C929.wem</CachePath>
+				</File>
+				<File Id="42722486" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Deconstruct Tower_01.wav</ShortName>
+					<CachePath>SFX/Deconstruct Tower_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="86987482" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>placeholder.wav</ShortName>
@@ -169,9 +174,29 @@
 					<ShortName>Pyromancer_Select.wav</ShortName>
 					<CachePath>SFX/Pyromancer_Select_10C4C929.wem</CachePath>
 				</File>
+				<File Id="264760723" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Punch_whiffed.wav</ShortName>
+					<CachePath>SFX/Punch_whiffed_10C4C929.wem</CachePath>
+				</File>
+				<File Id="276047651" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Player_hit.wav</ShortName>
+					<CachePath>SFX/Player_hit_10C4C929.wem</CachePath>
+				</File>
 				<File Id="328303304" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Flame Blast.wav</ShortName>
 					<CachePath>SFX/Flame Blast_10C4C929.wem</CachePath>
+				</File>
+				<File Id="365177855" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Default_TowerPlace.wav</ShortName>
+					<CachePath>SFX/Default_TowerPlace_10C4C929.wem</CachePath>
+				</File>
+				<File Id="467188632" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Shield_Recieved.wav</ShortName>
+					<CachePath>SFX/Shield_Recieved_10C4C929.wem</CachePath>
+				</File>
+				<File Id="470108203" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fireball Cast Metal.wav</ShortName>
+					<CachePath>SFX/Fireball Cast Metal_10C4C929.wem</CachePath>
 				</File>
 				<File Id="501470000" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>TempLobbyMusic.wav</ShortName>
@@ -179,23 +204,47 @@
 				</File>
 				<File Id="526166105" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fire sounds 01.wav</ShortName>
-					<CachePath>SFX/Fire sounds 01_10C4C929.wem</CachePath>
+					<CachePath>SFX/Fire sounds 01_4D7F3C83.wem</CachePath>
 				</File>
 				<File Id="566077581" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Abjurer_Select.wav</ShortName>
 					<CachePath>SFX/Abjurer_Select_10C4C929.wem</CachePath>
 				</File>
+				<File Id="613498577" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Movement Dwarf_01.wav</ShortName>
+					<CachePath>SFX/Movement Dwarf_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="723830146" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Movement Unicorn_01.wav</ShortName>
+					<CachePath>SFX/Movement Unicorn_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="746625791" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pixie Attack.wav</ShortName>
+					<CachePath>SFX/Pixie Attack_10C4C929.wem</CachePath>
+				</File>
+				<File Id="763209210" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Flare Bolt_NEW.wav</ShortName>
+					<CachePath>SFX/Flare Bolt_NEW_10C4C929.wem</CachePath>
+				</File>
+				<File Id="781744998" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Rock_Throw.wav</ShortName>
+					<CachePath>SFX/Rock_Throw_10C4C929.wem</CachePath>
+				</File>
+				<File Id="850187246" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enemy Hit_01.wav</ShortName>
+					<CachePath>SFX/Enemy Hit_01_10C4C929.wem</CachePath>
+				</File>
 				<File Id="856057212" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fireball Impact.wav</ShortName>
 					<CachePath>SFX/Fireball Impact_10C4C929.wem</CachePath>
 				</File>
-				<File Id="1018927324" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>hit.wav</ShortName>
-					<CachePath>SFX/hit_10C4C929.wem</CachePath>
+				<File Id="970336557" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>New_Punch_01.wav</ShortName>
+					<CachePath>SFX/New_Punch_01_10C4C929.wem</CachePath>
 				</File>
-				<File Id="1048310867" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Flare Bolt.wav</ShortName>
-					<CachePath>SFX/Flare Bolt_10C4C929.wem</CachePath>
+				<File Id="1017970394" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pixie Movement.wav</ShortName>
+					<CachePath>SFX/Pixie Movement_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1053668598" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Warlock_Select.wav</ShortName>
@@ -217,23 +266,35 @@
 						<MediaRef Id="1063365658"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1142304696" Name="Enemy_die" ObjectPath="\Events\Default Work Unit\Enemy Sounds\Enemy_die" DurationType="OneShot" DurationMin="1.1105669" DurationMax="1.1105669">
+				<Event Id="1772701621" Name="Deconstruct_tower" ObjectPath="\Events\Default Work Unit\Enemy Sounds\Dwarf\Deconstruct_tower" DurationType="OneShot" DurationMin="2.6929584" DurationMax="2.6929584">
 					<MediaRefs>
-						<MediaRef Id="21836415"/>
+						<MediaRef Id="42722486"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="1010055213" Name="Enemy_hit" ObjectPath="\Events\Default Work Unit\Enemy Sounds\Enemy_hit" DurationType="OneShot" DurationMin="0.50480723" DurationMax="0.50480723">
+				<Event Id="2533729493" Name="Dwarf_movement" ObjectPath="\Events\Default Work Unit\Enemy Sounds\Dwarf\Dwarf_movement" DurationType="OneShot" DurationMin="2.0108957" DurationMax="2.0108957">
 					<MediaRefs>
-						<MediaRef Id="1018927324"/>
+						<MediaRef Id="613498577"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4136547507" Name="Fire_burn" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Pyromancer\Fire_burn" DurationType="OneShot" DurationMin="14.769229" DurationMax="14.769229">
+				<Event Id="1142304696" Name="Enemy_die" ObjectPath="\Events\Default Work Unit\Enemy Sounds\Enemy_die" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1010055213" Name="Enemy_hit" ObjectPath="\Events\Default Work Unit\Enemy Sounds\Enemy_hit" DurationType="OneShot" DurationMin="1.0232713" DurationMax="1.2892412">
+					<MediaRefs>
+						<MediaRef Id="850187246"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4136547507" Name="Fire_burn" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Pyromancer\Fire_burn" DurationType="OneShot" DurationMin="5.1322265" DurationMax="5.1322265">
 					<MediaRefs>
 						<MediaRef Id="526166105"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2975203331" Name="Fireball_impact" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Pyromancer\Fireball_impact" DurationType="OneShot" DurationMin="4.4423127" DurationMax="4.4423127">
+				<Event Id="4229250388" Name="Fireball_cast" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Pyromancer\Fireball_cast" DurationType="OneShot" DurationMin="3.9230838" DurationMax="3.9230838">
 					<MediaRefs>
+						<MediaRef Id="470108203"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2975203331" Name="Fireball_impact" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Pyromancer\Fireball_impact" DurationType="OneShot" DurationMin="5.1322265" DurationMax="5.1322265">
+					<MediaRefs>
+						<MediaRef Id="526166105"/>
 						<MediaRef Id="856057212"/>
 					</MediaRefs>
 				</Event>
@@ -243,6 +304,16 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="2843837657" Name="Pixie_Attack" ObjectPath="\Events\Default Work Unit\Enemy Sounds\Pixie\Pixie_Attack" DurationType="OneShot" DurationMin="1.4409751" DurationMax="1.4409751">
+					<MediaRefs>
+						<MediaRef Id="746625791"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3330967582" Name="Pixie_movement" ObjectPath="\Events\Default Work Unit\Enemy Sounds\Pixie\Pixie_movement" DurationType="OneShot" DurationMin="3.3333333" DurationMax="3.3333333">
+					<MediaRefs>
+						<MediaRef Id="1017970394"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="1548734028" Name="Placeholder" ObjectPath="\Events\Default Work Unit\Placeholder" DurationType="OneShot" DurationMin="0.76922905" DurationMax="0.76922905">
 					<MediaRefs>
 						<MediaRef Id="86987482"/>
@@ -253,9 +324,24 @@
 						<MediaRef Id="501470000"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4080679518" Name="Pyro_blast" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Pyromancer\Pyro_blast" DurationType="OneShot" DurationMin="1.4305692" DurationMax="1.8024042">
+				<Event Id="871813740" Name="Player_hit" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Player_hit" DurationType="OneShot" DurationMin="0.29807258" DurationMax="0.29807258">
 					<MediaRefs>
-						<MediaRef Id="1048310867"/>
+						<MediaRef Id="276047651"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3527566233" Name="Punch_hit" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Abjurer\Punch_hit" DurationType="OneShot" DurationMin="1.4948311" DurationMax="1.8833691">
+					<MediaRefs>
+						<MediaRef Id="970336557"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="3592039512" Name="Punch_whiff" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Abjurer\Punch_whiff" DurationType="OneShot" DurationMin="0.8180915" DurationMax="1.0307307">
+					<MediaRefs>
+						<MediaRef Id="264760723"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="4080679518" Name="Pyro_blast" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Pyromancer\Pyro_blast" DurationType="OneShot" DurationMin="1.8509524" DurationMax="1.8509524">
+					<MediaRefs>
+						<MediaRef Id="763209210"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4121134294" Name="Pyromancer_select" ObjectPath="\Events\Default Work Unit\UI Sounds\Wizard Select Noises\Pyromancer_select" DurationType="OneShot" DurationMin="4.5138774" DurationMax="4.5138774">
@@ -263,7 +349,32 @@
 						<MediaRef Id="189521572"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="4064012791" Name="Rock_throw" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Abjurer\Rock_throw" DurationType="OneShot" DurationMin="1.850322" DurationMax="2.3312595">
+					<MediaRefs>
+						<MediaRef Id="781744998"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1371855332" Name="Shield_cast" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Abjurer\Shield_cast" DurationType="OneShot" DurationMin="1.8461452" DurationMax="1.8461452">
+					<MediaRefs>
+						<MediaRef Id="29729184"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="1264857408" Name="Shield_recieve" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Abjurer\Shield_recieve" DurationType="OneShot" DurationMin="0.8180915" DurationMax="1.0307307">
+					<MediaRefs>
+						<MediaRef Id="467188632"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2837384057" Name="Stop_music" ObjectPath="\Events\Default Work Unit\Music\Stop_music" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="3598582184" Name="Tower_place" ObjectPath="\Events\Default Work Unit\Tower Sounds\Tower_place" DurationType="OneShot" DurationMin="1.5817233" DurationMax="1.5817233">
+					<MediaRefs>
+						<MediaRef Id="365177855"/>
+					</MediaRefs>
+				</Event>
+				<Event Id="2297713145" Name="Unicorn_movement" ObjectPath="\Events\Default Work Unit\Enemy Sounds\Unicorn\Unicorn_movement" DurationType="OneShot" DurationMin="0.39554167" DurationMax="0.39554167">
+					<MediaRefs>
+						<MediaRef Id="723830146"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="16655299" Name="Warlock_select" ObjectPath="\Events\Default Work Unit\UI Sounds\Wizard Select Noises\Warlock_select" DurationType="OneShot" DurationMin="3" DurationMax="3">
 					<MediaRefs>
 						<MediaRef Id="1053668598"/>
@@ -272,5 +383,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{A5743004-0771-26A4-905E-D67161FBED75}</FileHash>
+	<FileHash>{5070EBE7-B252-5452-4121-7B1E305DCE18}</FileHash>
 </SoundBanksInfo>

@@ -61,6 +61,236 @@
 						<ActiveSource Name="hit" ID="{D2BB0363-62BA-4D98-86B2-4399700D807F}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Folder Name="Unicorn" ID="{BE5A3E2C-654A-4444-B0EE-6FCC4DD60DD5}" ShortID="357352969">
+					<ChildrenList>
+						<Sound Name="Movement Unicorn_01" ID="{2660EC09-D543-4550-98C5-238B2812F426}" ShortID="777661941">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Movement Unicorn_01" ID="{D1307392-D62D-4746-8BB7-C1D13CA72CD7}">
+									<Language>SFX</Language>
+									<AudioFile>Movement Unicorn_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="723830146"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Movement Unicorn_01" ID="{D1307392-D62D-4746-8BB7-C1D13CA72CD7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Dwarf" ID="{5B99426D-99DD-4E21-BB29-2A1115D48980}" ShortID="521599372">
+					<ChildrenList>
+						<Sound Name="Deconstruct Tower_01" ID="{2BA2EBC1-315F-40CA-A1A0-E69A11C08297}" ShortID="19223412">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Deconstruct Tower_01" ID="{45D1F105-4D20-4589-9015-9A83066CACD0}">
+									<Language>SFX</Language>
+									<AudioFile>Deconstruct Tower_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="42722486"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Deconstruct Tower_01" ID="{45D1F105-4D20-4589-9015-9A83066CACD0}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Movement Dwarf_01" ID="{7C6FD32C-EF89-4F1B-A6C3-C84B608DCE93}" ShortID="274774648">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Movement Dwarf_01" ID="{1E3D6B9B-8672-4B4C-AFC9-E6D3A410FFA3}">
+									<Language>SFX</Language>
+									<AudioFile>Movement Dwarf_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="613498577"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Movement Dwarf_01" ID="{1E3D6B9B-8672-4B4C-AFC9-E6D3A410FFA3}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Pixie" ID="{65DA132D-FA5F-403C-AFB5-85D5656B5A80}" ShortID="831932782">
+					<ChildrenList>
+						<Sound Name="Pixie Attack" ID="{6ED464BC-A0A9-4EBC-9A9D-FEC3DC35341F}" ShortID="277309138">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pixie Attack" ID="{3434F393-60C6-409E-A660-07A87D0C3700}">
+									<Language>SFX</Language>
+									<AudioFile>Pixie Attack.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="746625791"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pixie Attack" ID="{3434F393-60C6-409E-A660-07A87D0C3700}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Pixie Movement" ID="{977E9744-E0DC-4562-BD0C-9C56DCB4DD71}" ShortID="138799672">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Pixie Movement" ID="{FEEFD48D-558D-4BB3-95F3-80F83361712B}">
+									<Language>SFX</Language>
+									<AudioFile>Pixie Movement.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="1017970394"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Pixie Movement" ID="{FEEFD48D-558D-4BB3-95F3-80F83361712B}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Sound Name="Enemy Hit_01" ID="{87472325-3331-4A6A-A8ED-0EF0816174B2}" ShortID="774026207">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ModifierList>
+								<ModifierInfo>
+									<Modifier Name="" ID="{29FD0AC0-5FC9-4C85-ADCB-06608050072E}">
+										<PropertyList>
+											<Property Name="Enabled" Type="bool" Value="True"/>
+											<Property Name="Max" Type="Real64" Value="200"/>
+											<Property Name="Min" Type="Real64" Value="-200"/>
+										</PropertyList>
+									</Modifier>
+								</ModifierInfo>
+							</ModifierList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Enemy Hit_01" ID="{753566C8-C6C6-49C5-87EE-34DA70DDE514}">
+							<Language>SFX</Language>
+							<AudioFile>Enemy Hit_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="850187246"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Enemy Hit_01" ID="{753566C8-C6C6-49C5-87EE-34DA70DDE514}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<SwitchContainer Name="Enemy_Death" ID="{D303B1FA-5AE7-4558-9526-C9C74C791306}" ShortID="913779581">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Enemy Die Confetti_01" ID="{D6315017-6643-413B-99E0-A147B1C72F43}" ShortID="952856655">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Enemy Die Confetti_01" ID="{4E6448B5-6D31-4739-9B43-37C1085C1DDA}">
+									<Language>SFX</Language>
+									<AudioFile>Enemy Die Confetti_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="335532674"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Enemy Die Confetti_01" ID="{4E6448B5-6D31-4739-9B43-37C1085C1DDA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Enemy Die_01" ID="{BCE13FE4-065D-4BEF-8CAC-8276150DE728}" ShortID="844021295">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Enemy Die_01" ID="{3B6BE3D5-B354-4A3B-8FAC-B1EAA515E0CE}">
+									<Language>SFX</Language>
+									<AudioFile>Enemy Die_01.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="129178476"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Enemy Die_01" ID="{3B6BE3D5-B354-4A3B-8FAC-B1EAA515E0CE}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+					<GroupingInfo>
+						<GroupingBehaviorList>
+							<GroupingBehavior>
+								<ItemRef Name="Enemy Die Confetti_01" ID="{D6315017-6643-413B-99E0-A147B1C72F43}"/>
+							</GroupingBehavior>
+							<GroupingBehavior>
+								<ItemRef Name="Enemy Die_01" ID="{BCE13FE4-065D-4BEF-8CAC-8276150DE728}"/>
+							</GroupingBehavior>
+						</GroupingBehaviorList>
+					</GroupingInfo>
+				</SwitchContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

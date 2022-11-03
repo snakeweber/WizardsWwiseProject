@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{62F2D687-16FE-48F2-99FD-5EDD312B7687}" SchemaVersion="110">
 	<AudioObjects>
-		<WorkUnit Name="Tower Work Unit" ID="{62F2D687-16FE-48F2-99FD-5EDD312B7687}" PersistMode="Standalone"/>
+		<WorkUnit Name="Tower Work Unit" ID="{62F2D687-16FE-48F2-99FD-5EDD312B7687}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Default_TowerPlace" ID="{352A1DBD-B40D-4853-AB7F-126EBE2ECBEA}" ShortID="616971140">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Default_TowerPlace" ID="{9392D8F5-694D-48A7-9FD3-92320C0A96FA}">
+							<Language>SFX</Language>
+							<AudioFile>Default_TowerPlace.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="365177855"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Default_TowerPlace" ID="{9392D8F5-694D-48A7-9FD3-92320C0A96FA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

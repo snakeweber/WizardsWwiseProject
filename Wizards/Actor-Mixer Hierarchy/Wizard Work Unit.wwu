@@ -366,6 +366,10 @@
 									</ReferenceList>
 									<ChildrenList>
 										<AudioFileSource Name="Fire sounds 01" ID="{0F2E7F97-1CB1-4E0D-8424-959C32866824}">
+											<PropertyList>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimEnd" Type="Real64" Value="5.13222664374392"/>
+											</PropertyList>
 											<Language>SFX</Language>
 											<AudioFile>Fire sounds 01.wav</AudioFile>
 											<MediaIDList>
@@ -377,8 +381,269 @@
 										<ActiveSource Name="Fire sounds 01" ID="{0F2E7F97-1CB1-4E0D-8424-959C32866824}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Fireball Cast Metal" ID="{52F3EDDB-69B3-4B84-AB62-A78BF1C2587D}" ShortID="1049912501">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{DD1179FB-6CAB-411B-A5BD-2CC943198D16}">
+														<PropertyList>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fireball Cast Metal" ID="{15161EE8-36E8-4E5E-819B-65BB8C09B1D0}">
+											<Language>SFX</Language>
+											<AudioFile>Fireball Cast Metal.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="470108203"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fireball Cast Metal" ID="{15161EE8-36E8-4E5E-819B-65BB8C09B1D0}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Flame Blast_NEW" ID="{D35F5E24-535F-41C2-9327-8C90CED6B5C1}" ShortID="463169278">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Flare Bolt_NEW" ID="{836EED7E-B32B-44C0-946B-D5C776E8364D}">
+											<Language>SFX</Language>
+											<AudioFile>Flare Bolt_NEW.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="763209210"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Flare Bolt_NEW" ID="{836EED7E-B32B-44C0-946B-D5C776E8364D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Abjurer" ID="{79AD5429-F82E-40B2-9B4D-C4BA430588C0}" ShortID="885634416">
+							<ChildrenList>
+								<Sound Name="New_Punch_01" ID="{8A16FCF1-6906-4F3F-AEDC-02CEB4429769}" ShortID="477028838">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{E87034F8-F476-4105-9D3E-65F1DF607536}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="New_Punch_01" ID="{AEB45285-431B-41D2-BA16-A094386137A1}">
+											<Language>SFX</Language>
+											<AudioFile>New_Punch_01.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="970336557"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="New_Punch_01" ID="{AEB45285-431B-41D2-BA16-A094386137A1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Punch_whiffed" ID="{B266380D-2334-4013-864D-C1F6717C44BA}" ShortID="183105751">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{CAF0F003-E93F-402D-8CCF-46E4570A9155}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Punch_whiffed" ID="{D5EEC1CF-36D1-4E58-8665-41F150CFC69B}">
+											<Language>SFX</Language>
+											<AudioFile>Punch_whiffed.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="264760723"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Punch_whiffed" ID="{D5EEC1CF-36D1-4E58-8665-41F150CFC69B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Rock_Throw" ID="{6A53FA8E-9AEC-447C-865C-9EE974A8586C}" ShortID="529225777">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{896DC175-9FE6-49D6-9668-2243C7A2F605}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Rock_Throw" ID="{D3C7674D-4D30-4D2D-A9DA-43F59D846B17}">
+											<Language>SFX</Language>
+											<AudioFile>Rock_Throw.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="781744998"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Rock_Throw" ID="{D3C7674D-4D30-4D2D-A9DA-43F59D846B17}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Shield_Cast" ID="{E7ECC379-BE2E-4C57-8526-2E825585BA7B}" ShortID="1033422033">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Shield_Cast" ID="{2482ED24-DDBB-4DD4-8B57-BEF9679D0ACB}">
+											<Language>SFX</Language>
+											<AudioFile>Shield_Cast.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="29729184"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Shield_Cast" ID="{2482ED24-DDBB-4DD4-8B57-BEF9679D0ACB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Shield_Received" ID="{1B5DFB0F-03B6-4791-B50D-258C070B5CDA}" ShortID="1067155736">
+									<PropertyList>
+										<Property Name="Pitch" Type="int32">
+											<ModifierList>
+												<ModifierInfo>
+													<Modifier Name="" ID="{70829348-9BA1-4A4E-A953-D0163757F021}">
+														<PropertyList>
+															<Property Name="Enabled" Type="bool" Value="True"/>
+															<Property Name="Max" Type="Real64" Value="200"/>
+															<Property Name="Min" Type="Real64" Value="-200"/>
+														</PropertyList>
+													</Modifier>
+												</ModifierInfo>
+											</ModifierList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Shield_Recieved" ID="{DB7CCD9B-9A1D-4AB5-A33B-02865A366BDF}">
+											<Language>SFX</Language>
+											<AudioFile>Shield_Recieved.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="467188632"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Shield_Recieved" ID="{DB7CCD9B-9A1D-4AB5-A33B-02865A366BDF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</Folder>
+						<Sound Name="Player_hit" ID="{9F01D562-7A32-4299-876D-C67B7BFD6D75}" ShortID="751477127">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Player_hit" ID="{A092B703-6796-4AB7-BD9B-69D43526EFBB}">
+									<Language>SFX</Language>
+									<AudioFile>Player_hit.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="276047651"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Player_hit" ID="{A092B703-6796-4AB7-BD9B-69D43526EFBB}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

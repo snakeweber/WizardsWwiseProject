@@ -94,10 +94,10 @@
 								</Event>
 								<Event Name="Pyro_blast" ID="{DCA44C5C-F7C3-4240-89D8-180CFEA81C87}">
 									<ChildrenList>
-										<Action Name="" ID="{0181D622-8200-49FC-A42D-4FDB7805A05F}" ShortID="809711470">
+										<Action Name="" ID="{946BC4C9-C5C6-4F02-96CA-D1BB36E559B2}" ShortID="594817635">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Flare Bolt" ID="{B8CEA57D-4183-4210-A063-57FB294F73E8}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+													<ObjectRef Name="Flame Blast_NEW" ID="{D35F5E24-535F-41C2-9327-8C90CED6B5C1}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -123,20 +123,108 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{0E17E149-C953-4004-92AA-D97243A2819E}" ShortID="1049472462">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Fire sounds 01" ID="{AD795D24-7632-425C-91BD-F271986C37E3}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Fireball_cast" ID="{61105158-FD6E-4571-A53C-26619D3D6614}">
+									<ChildrenList>
+										<Action Name="" ID="{B324884C-DF2E-44E1-A125-1D00B27D3AC4}" ShortID="878618421">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Fireball Cast Metal" ID="{52F3EDDB-69B3-4B84-AB62-A78BF1C2587D}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Abjurer" ID="{56E3349E-7C36-4CD9-8A41-5DA1507AA4D4}" ShortID="797215107">
+							<ChildrenList>
+								<Event Name="Punch_hit" ID="{28FFD55D-B37C-4C95-BC91-620E6CB797BF}">
+									<ChildrenList>
+										<Action Name="" ID="{CEFB940B-7C5C-4949-8970-0C52A8A99780}" ShortID="981827563">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="New_Punch_01" ID="{8A16FCF1-6906-4F3F-AEDC-02CEB4429769}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Punch_whiff" ID="{F0BF692A-F266-4AC6-97C4-3B7767EB8D56}">
+									<ChildrenList>
+										<Action Name="" ID="{5AC0386B-FE3F-4D29-8E88-E9FC7C8BD09D}" ShortID="15013524">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Punch_whiffed" ID="{B266380D-2334-4013-864D-C1F6717C44BA}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Rock_throw" ID="{F9CD7217-A9E7-4291-8EA2-42E71EE63D4A}">
+									<ChildrenList>
+										<Action Name="" ID="{AA96EF4B-7822-4EEC-B730-9CC811379607}" ShortID="451903948">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Rock_Throw" ID="{6A53FA8E-9AEC-447C-865C-9EE974A8586C}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Shield_cast" ID="{680A3441-8771-4294-BED7-DFF589BA1361}">
+									<ChildrenList>
+										<Action Name="" ID="{7874E2CB-AA14-45E3-93DE-98CB57539E19}" ShortID="942216602">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Shield_Cast" ID="{E7ECC379-BE2E-4C57-8526-2E825585BA7B}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Shield_recieve" ID="{67B3996D-FBBF-4690-8041-77E4C4A606B6}">
+									<ChildrenList>
+										<Action Name="" ID="{AD4D8C2E-FA97-4FD7-B782-8C66BF3BF149}" ShortID="897514356">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Shield_Received" ID="{1B5DFB0F-03B6-4791-B50D-258C070B5CDA}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Event Name="Player_hit" ID="{627C663C-E560-4F55-8136-A529E0A0FD0F}">
+							<ChildrenList>
+								<Action Name="" ID="{3308CA6D-2C24-4532-B3EA-5EE88CCE1017}" ShortID="307492920">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Player_hit" ID="{9F01D562-7A32-4299-876D-C67B7BFD6D75}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Enemy Sounds" ID="{81A1DCEA-52CA-4E65-A61F-BDB46F8F40CD}" ShortID="849713142">
 					<ChildrenList>
 						<Event Name="Enemy_hit" ID="{78D94442-3E3A-481E-ADA1-F676294EAC89}">
 							<ChildrenList>
-								<Action Name="" ID="{BE55E24B-B20D-4772-AAA3-8054A3A5FDC9}" ShortID="18954577">
+								<Action Name="" ID="{C045A73A-9FFF-4843-A28A-F70E1BE593E0}" ShortID="41024803">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="hit" ID="{EDAD2FD9-E110-42EC-A529-2DFFFC4AA8B7}" WorkUnitID="{CD3408BF-4DB1-4704-8783-4CEAA59D44BE}"/>
+											<ObjectRef Name="Enemy Hit_01" ID="{87472325-3331-4A6A-A8ED-0EF0816174B2}" WorkUnitID="{CD3408BF-4DB1-4704-8783-4CEAA59D44BE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -144,15 +232,82 @@
 						</Event>
 						<Event Name="Enemy_die" ID="{0B55AE0E-C5D9-40F6-945C-EA134B7776BD}">
 							<ChildrenList>
-								<Action Name="" ID="{7C2BF9A3-0B37-4087-8C89-EB5B372FB957}" ShortID="1070497788">
+								<Action Name="" ID="{794C505C-213C-4027-AE2D-1E5023A2DA3F}" ShortID="921685327">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="die" ID="{373BF158-28DA-466C-8176-3504AE7D2875}" WorkUnitID="{CD3408BF-4DB1-4704-8783-4CEAA59D44BE}"/>
+											<ObjectRef Name="Enemy_Death" ID="{D303B1FA-5AE7-4558-9526-C9C74C791306}" WorkUnitID="{CD3408BF-4DB1-4704-8783-4CEAA59D44BE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
 							</ChildrenList>
 						</Event>
+						<Folder Name="Dwarf" ID="{4B2AA270-4595-4160-8394-A1311F94AC41}" ShortID="568758998">
+							<ChildrenList>
+								<Event Name="Dwarf_movement" ID="{5DE0C728-C05E-4235-859D-6D67BDFCF469}">
+									<ChildrenList>
+										<Action Name="" ID="{6C621B6B-2C35-43E4-BE42-A2535FF4FAE1}" ShortID="360613591">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Movement Dwarf_01" ID="{7C6FD32C-EF89-4F1B-A6C3-C84B608DCE93}" WorkUnitID="{CD3408BF-4DB1-4704-8783-4CEAA59D44BE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Deconstruct_tower" ID="{924E54BF-0078-42C7-BF2D-65B9236C6941}">
+									<ChildrenList>
+										<Action Name="" ID="{818C0B84-57AC-4E32-A1EE-9A423AA08800}" ShortID="948253971">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Deconstruct Tower_01" ID="{2BA2EBC1-315F-40CA-A1A0-E69A11C08297}" WorkUnitID="{CD3408BF-4DB1-4704-8783-4CEAA59D44BE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Unicorn" ID="{2FD63C83-2EFA-4A10-BADF-6CCC3FCA10B1}" ShortID="917508180">
+							<ChildrenList>
+								<Event Name="Unicorn_movement" ID="{37D692D2-9EEF-40F1-BCB0-FC113F68FC7C}">
+									<ChildrenList>
+										<Action Name="" ID="{DECB7EE1-FCEF-41EA-9856-82D221F41341}" ShortID="73377850">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Movement Unicorn_01" ID="{2660EC09-D543-4550-98C5-238B2812F426}" WorkUnitID="{CD3408BF-4DB1-4704-8783-4CEAA59D44BE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
+						<Folder Name="Pixie" ID="{71CD5927-A060-40D7-B574-E37A066C88AC}" ShortID="669691309">
+							<ChildrenList>
+								<Event Name="Pixie_movement" ID="{28A8E12C-FA07-44A6-BA7D-725851243245}">
+									<ChildrenList>
+										<Action Name="" ID="{88DB7E93-EC67-44D5-903D-912FE10EEC7A}" ShortID="650693685">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Pixie Movement" ID="{977E9744-E0DC-4562-BD0C-9C56DCB4DD71}" WorkUnitID="{CD3408BF-4DB1-4704-8783-4CEAA59D44BE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Pixie_Attack" ID="{58F4B2B4-4209-4E0A-A55D-5087110EBCC6}">
+									<ChildrenList>
+										<Action Name="" ID="{C9B9D08E-1B1B-4D24-99BE-82198006EDE7}" ShortID="434712851">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Pixie Attack" ID="{6ED464BC-A0A9-4EBC-9A9D-FEC3DC35341F}" WorkUnitID="{CD3408BF-4DB1-4704-8783-4CEAA59D44BE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Music" ID="{AC2EF10C-2DDC-4467-AE71-6E3B6A05FFAE}" ShortID="780262699">
@@ -177,6 +332,21 @@
 									<ReferenceList>
 										<Reference Name="Target">
 											<ObjectRef Name="TempLobbyMusic" ID="{8F7BFA03-1B93-4DBB-83A4-976BB4283299}" WorkUnitID="{FC04DB0B-925C-4DCE-8F79-037505087228}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="Tower Sounds" ID="{30179BE2-F2CF-4F3F-9491-5F479DE4B761}" ShortID="841920419">
+					<ChildrenList>
+						<Event Name="Tower_place" ID="{65A8AC96-D6F2-45C5-A059-165498DC393C}">
+							<ChildrenList>
+								<Action Name="" ID="{3D93BE38-642A-4C81-A884-93D2E8974F23}" ShortID="697129850">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Default_TowerPlace" ID="{352A1DBD-B40D-4853-AB7F-126EBE2ECBEA}" WorkUnitID="{62F2D687-16FE-48F2-99FD-5EDD312B7687}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>

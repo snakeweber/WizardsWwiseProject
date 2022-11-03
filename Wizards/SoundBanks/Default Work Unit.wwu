@@ -11,6 +11,7 @@
 						<ObjectRef Name="Wizard Sounds" ID="{501B5A26-5B7A-4D64-896B-A5FA47D59E88}" WorkUnitID="{57D99223-B930-46B5-B030-DC4C35B96056}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="Enemy Sounds" ID="{81A1DCEA-52CA-4E65-A61F-BDB46F8F40CD}" WorkUnitID="{57D99223-B930-46B5-B030-DC4C35B96056}" Origin="Manual" Filter="7"/>
 						<ObjectRef Name="UI Sounds" ID="{6D641BAA-A9ED-4EB7-B795-E1F470EBF44F}" WorkUnitID="{57D99223-B930-46B5-B030-DC4C35B96056}" Origin="Manual" Filter="7"/>
+						<ObjectRef Name="Tower Sounds" ID="{30179BE2-F2CF-4F3F-9491-5F479DE4B761}" WorkUnitID="{57D99223-B930-46B5-B030-DC4C35B96056}" Origin="Manual" Filter="7"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>
 					<GameSyncExclusionList/>

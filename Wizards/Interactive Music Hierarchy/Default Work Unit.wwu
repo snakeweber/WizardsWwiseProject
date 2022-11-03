@@ -1,6 +1,93 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{7BE6ECF5-7ACF-406A-95B5-DDE5C933D34C}" SchemaVersion="110">
 	<InteractiveMusic>
-		<WorkUnit Name="Default Work Unit" ID="{7BE6ECF5-7ACF-406A-95B5-DDE5C933D34C}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{7BE6ECF5-7ACF-406A-95B5-DDE5C933D34C}" PersistMode="Standalone">
+			<ChildrenList>
+				<MusicSegment Name="TempLobbyMusic" ID="{58841206-9253-40D4-ADEA-70AAF6E8BB2C}" ShortID="78814236">
+					<PropertyList>
+						<Property Name="EndPosition" Type="Real64" Value="31394.2403628118"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicTrack Name="TempLobbyMusic" ID="{7E508C27-B891-4E49-A7EC-F5C1B7903279}" ShortID="1010474225">
+							<ReferenceList>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="TempLobbyMusic" ID="{A583731E-F95F-476C-8EF2-7642FA12AA68}">
+									<Language>SFX</Language>
+									<AudioFile>TempLobbyMusic.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="892099194"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<TransitionList>
+								<MusicTransition Name="Root" ID="{9AD6CBC7-6448-4372-B7C8-48F68CF0B0F3}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</TransitionList>
+							<ObjectLists>
+								<ObjectList Name="Sequences">
+									<Reference>
+										<Local>
+											<MusicTrackSequence Name="" ID="{BB4391FF-B02D-4DA4-9F3C-219D45827E1F}">
+												<ObjectLists>
+													<ObjectList Name="Clips">
+														<Reference>
+															<Local>
+																<MusicClip Name="TempLobbyMusic" ID="{122884B4-8D23-49A8-BD82-5AF3C4D49B05}">
+																	<PropertyList>
+																		<Property Name="EndTrimOffset" Type="Real64" Value="31394.2403628118"/>
+																		<Property Name="FadeInMode" Type="int16" Value="0"/>
+																		<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																	</PropertyList>
+																	<AudioSourceRef Name="TempLobbyMusic" ID="{A583731E-F95F-476C-8EF2-7642FA12AA68}"/>
+																</MusicClip>
+															</Local>
+														</Reference>
+													</ObjectList>
+												</ObjectLists>
+											</MusicTrackSequence>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicTrack>
+					</ChildrenList>
+					<ObjectLists>
+						<ObjectList Name="Cues">
+							<Reference>
+								<Local>
+									<MusicCue Name="Entry Cue" ID="{9F416022-B1DD-4F10-BEE2-EDF83BA76CBE}"/>
+								</Local>
+							</Reference>
+							<Reference>
+								<Local>
+									<MusicCue Name="Exit Cue" ID="{193ACE23-3198-42A5-BB37-AE63D90FB796}">
+										<PropertyList>
+											<Property Name="CueType" Type="int16" Value="1"/>
+											<Property Name="TimeMs" Type="Real64" Value="20000"/>
+										</PropertyList>
+									</MusicCue>
+								</Local>
+							</Reference>
+						</ObjectList>
+					</ObjectLists>
+				</MusicSegment>
+			</ChildrenList>
+		</WorkUnit>
 	</InteractiveMusic>
 </WwiseDocument>
