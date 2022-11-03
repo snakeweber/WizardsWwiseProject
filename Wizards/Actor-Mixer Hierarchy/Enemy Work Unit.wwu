@@ -85,6 +85,35 @@
 								<ActiveSource Name="Movement Unicorn_01" ID="{D1307392-D62D-4746-8BB7-C1D13CA72CD7}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
+						<Sound Name="Exploding Unicorn Explode" ID="{07755B37-F37B-4A90-83EB-5BD5F0594E5C}" ShortID="999512139">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Exploding Unicorn Explode" ID="{9E156BC1-B917-41B0-B43F-992C185B3471}">
+									<Language>SFX</Language>
+									<AudioFile>Exploding Unicorn Explode.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="522301813"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Exploding Unicorn Explode" ID="{9E156BC1-B917-41B0-B43F-992C185B3471}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
 				</Folder>
 				<Folder Name="Dwarf" ID="{5B99426D-99DD-4E21-BB29-2A1115D48980}" ShortID="521599372">

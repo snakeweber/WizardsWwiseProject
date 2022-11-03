@@ -3,8 +3,9 @@
 	<UserProjectSettingsInfo>
 		<UserProjectSettings Name="" ID="{C43D639C-9196-45DB-85F0-A80D236E71F1}">
 			<PropertyList>
-				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\jakew\Music\Wizard Capstone\Gameplay Sounds\"/>
+				<Property Name="AudioFilesImporter\Path" Type="string" Value="D:\jakew\Music\Wizard Capstone\Gameplay Sounds\Pyro\"/>
 				<Property Name="Event Action List\{0B55AE0E-C5D9-40F6-945C-EA134B7776BD}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{1CA7D5E9-B123-40D0-87BC-4CB03D729014}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{28A8E12C-FA07-44A6-BA7D-725851243245}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{28FFD55D-B37C-4C95-BC91-620E6CB797BF}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{36AA72E1-91F5-451F-AB6A-5C84C8F9BD5F}\x64_Expand States" Type="string" Value=""/>
@@ -21,6 +22,7 @@
 				<Property Name="Event Action List\{899E94D1-7D57-462D-A234-E9101893C0E3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{924E54BF-0078-42C7-BF2D-65B9236C6941}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{A8F4823B-3E98-4394-A008-154F13E5FD3A}\x64_Expand States" Type="string" Value=""/>
+				<Property Name="Event Action List\{BD5C2AA6-A6C3-4108-9EE3-9BB98D80331E}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{BE43AC4D-3CA9-4DA5-94F0-A93A356F58F3}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{CC5091C2-DD66-4E22-9D52-F41B9D5C37DC}\x64_Expand States" Type="string" Value=""/>
 				<Property Name="Event Action List\{D94A374D-89EF-40C8-9AD4-31A6F7CA4880}\x64_Expand States" Type="string" Value=""/>

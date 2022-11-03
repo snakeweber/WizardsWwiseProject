@@ -154,7 +154,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0A7D4CA2-5F30-2BE5-A176-DF192DA311D3}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C682A480-40F3-9578-1902-4779E7C02716}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -203,6 +203,14 @@
 					<ShortName>TempLobbyMusic.wav</ShortName>
 					<CachePath>SFX/TempLobbyMusic_10C4C929.wem</CachePath>
 				</File>
+				<File Id="522301813" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Exploding Unicorn Explode.wav</ShortName>
+					<CachePath>SFX/Exploding Unicorn Explode_10C4C929.wem</CachePath>
+				</File>
+				<File Id="523979037" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Orb damage 02.wav</ShortName>
+					<CachePath>SFX/Orb damage 02_10C4C929.wem</CachePath>
+				</File>
 				<File Id="526166105" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fire sounds 01.wav</ShortName>
 					<CachePath>SFX/Fire sounds 01_4D7F3C83.wem</CachePath>
@@ -230,6 +238,10 @@
 				<File Id="781744998" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rock_Throw.wav</ShortName>
 					<CachePath>SFX/Rock_Throw_10C4C929.wem</CachePath>
+				</File>
+				<File Id="835961842" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Orb damage 01.wav</ShortName>
+					<CachePath>SFX/Orb damage 01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="850187246" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enemy Hit_01.wav</ShortName>
@@ -305,6 +317,12 @@
 					</MediaRefs>
 				</Event>
 				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
+				<Event Id="1462823712" Name="Orb_damaged" ObjectPath="\Events\Default Work Unit\World Sounds\Orb\Orb_damaged" DurationType="OneShot" DurationMin="0.61678064" DurationMax="0.77709496">
+					<MediaRefs>
+						<MediaRef Id="523979037"/>
+						<MediaRef Id="835961842"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2843837657" Name="Pixie_Attack" ObjectPath="\Events\Default Work Unit\Enemy Sounds\Pixie\Pixie_Attack" DurationType="OneShot" DurationMin="1.4409751" DurationMax="1.4409751">
 					<MediaRefs>
 						<MediaRef Id="746625791"/>
@@ -371,6 +389,11 @@
 						<MediaRef Id="365177855"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="3552098858" Name="Unibomber_explode" ObjectPath="\Events\Default Work Unit\Enemy Sounds\Unicorn\Unibomber_explode" DurationType="OneShot" DurationMin="1.480771" DurationMax="1.480771">
+					<MediaRefs>
+						<MediaRef Id="522301813"/>
+					</MediaRefs>
+				</Event>
 				<Event Id="2297713145" Name="Unicorn_movement" ObjectPath="\Events\Default Work Unit\Enemy Sounds\Unicorn\Unicorn_movement" DurationType="OneShot" DurationMin="0.39554167" DurationMax="0.39554167">
 					<MediaRefs>
 						<MediaRef Id="723830146"/>
@@ -384,5 +407,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{17675C60-1D4A-76DF-0BDC-F238DCCE6CA5}</FileHash>
+	<FileHash>{05D5D1D0-FBC0-13DC-E8E2-5491B1F49BDA}</FileHash>
 </SoundBanksInfo>

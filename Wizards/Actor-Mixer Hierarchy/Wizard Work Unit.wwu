@@ -441,9 +441,38 @@
 												<MediaID ID="763209210"/>
 											</MediaIDList>
 										</AudioFileSource>
+										<AudioFileSource Name="Flame Blast_NEW" ID="{26E0C286-5470-49C7-BE7F-E175CC1751A3}">
+											<Language>SFX</Language>
+											<AudioFile>Flame Blast_NEW.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="530281675"/>
+											</MediaIDList>
+										</AudioFileSource>
 									</ChildrenList>
 									<ActiveSourceList>
-										<ActiveSource Name="Flare Bolt_NEW" ID="{836EED7E-B32B-44C0-946B-D5C776E8364D}" Platform="Linked"/>
+										<ActiveSource Name="Flame Blast_NEW" ID="{26E0C286-5470-49C7-BE7F-E175CC1751A3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Flare Bolt_NEW" ID="{FB41B619-9E6A-48DB-8004-6385D187F5D6}" ShortID="376691378">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Flare Bolt_NEW" ID="{4096DD39-5E7B-49E9-899B-B3F009A34CEB}">
+											<Language>SFX</Language>
+											<AudioFile>Flare Bolt_NEW.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="763209210"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Flare Bolt_NEW" ID="{4096DD39-5E7B-49E9-899B-B3F009A34CEB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

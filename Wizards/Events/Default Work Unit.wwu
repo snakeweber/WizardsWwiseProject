@@ -280,6 +280,17 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Unibomber_explode" ID="{1CA7D5E9-B123-40D0-87BC-4CB03D729014}">
+									<ChildrenList>
+										<Action Name="" ID="{A767ACD9-7F6F-4189-928D-9205CC396149}" ShortID="679846608">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Exploding Unicorn Explode" ID="{07755B37-F37B-4A90-83EB-5BD5F0594E5C}" WorkUnitID="{CD3408BF-4DB1-4704-8783-4CEAA59D44BE}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Pixie" ID="{71CD5927-A060-40D7-B574-E37A066C88AC}" ShortID="669691309">
@@ -352,6 +363,25 @@
 								</Action>
 							</ChildrenList>
 						</Event>
+					</ChildrenList>
+				</Folder>
+				<Folder Name="World Sounds" ID="{9A09E6AA-1D30-4E6A-868C-F89D60B8E3CA}" ShortID="758836245">
+					<ChildrenList>
+						<Folder Name="Orb" ID="{277949FC-0C1C-46BE-BA0C-242D0D98124F}" ShortID="157205884">
+							<ChildrenList>
+								<Event Name="Orb_damaged" ID="{BD5C2AA6-A6C3-4108-9EE3-9BB98D80331E}">
+									<ChildrenList>
+										<Action Name="" ID="{EF7E5806-35D2-4294-99CF-E92149D0903B}" ShortID="955204078">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Orb damaged" ID="{38543C09-C112-482B-9E63-254F116FE255}" WorkUnitID="{648AA360-5D9D-4189-B9B8-9C7719444F31}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
