@@ -41,16 +41,16 @@
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="TempLobbyMusic" ID="{E29C510F-A0CF-4E94-AB40-18792E708A0A}">
+						<AudioFileSource Name="Enter the Sugarverse" ID="{597753E2-97CC-4E48-96E3-D8A65E4B5994}">
 							<Language>SFX</Language>
-							<AudioFile>TempLobbyMusic.wav</AudioFile>
+							<AudioFile>Enter the Sugarverse.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="501470000"/>
+								<MediaID ID="423620553"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="TempLobbyMusic" ID="{E29C510F-A0CF-4E94-AB40-18792E708A0A}" Platform="Linked"/>
+						<ActiveSource Name="Enter the Sugarverse" ID="{597753E2-97CC-4E48-96E3-D8A65E4B5994}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>
