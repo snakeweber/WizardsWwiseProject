@@ -571,6 +571,50 @@
 										<ActiveSource Name="Pyro_blast_NEW" ID="{0E89703C-F2BC-49A6-96EB-7B2234C50BBE}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="Pyro_blast_NEWER" ID="{A2A95D2C-513E-4157-9545-D51ADA8303B5}" ShortID="621346966">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pyro_blast_NEWER" ID="{C62BE861-F4E5-47C4-BFCD-4B61191D3FD2}">
+											<Language>SFX</Language>
+											<AudioFile>Pyro_blast_NEWER.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="703249878"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Pyro_blast_NEWER" ID="{C62BE861-F4E5-47C4-BFCD-4B61191D3FD2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Fireball_cast_METAL" ID="{46D2B77E-9CE5-4E78-8FC0-45C87FC7B7E3}" ShortID="356607227">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Fireball_cast_METAL" ID="{07F34504-5869-463C-9BB7-BC74E2688CD3}">
+											<Language>SFX</Language>
+											<AudioFile>Fireball_cast_METAL.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="618454019"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Fireball_cast_METAL" ID="{07F34504-5869-463C-9BB7-BC74E2688CD3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</Folder>
 						<Folder Name="Abjurer" ID="{79AD5429-F82E-40B2-9B4D-C4BA430588C0}" ShortID="885634416">
@@ -758,6 +802,28 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Shield_Recieved" ID="{DB7CCD9B-9A1D-4AB5-A33B-02865A366BDF}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Punch_NEW" ID="{50C2A746-0704-4B57-B462-6811D1970B7D}" ShortID="895242568">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Punch_NEW" ID="{9D5CD795-D8EC-477B-9C5A-64610D09696C}">
+											<Language>SFX</Language>
+											<AudioFile>Punch_NEW.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="734994918"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Punch_NEW" ID="{9D5CD795-D8EC-477B-9C5A-64610D09696C}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>

@@ -94,10 +94,10 @@
 								</Event>
 								<Event Name="Pyro_blast" ID="{DCA44C5C-F7C3-4240-89D8-180CFEA81C87}">
 									<ChildrenList>
-										<Action Name="" ID="{0697B59B-E36A-4F10-85B6-A81022AE6A93}" ShortID="89690813">
+										<Action Name="" ID="{C563D87D-5B52-4C2B-90C8-C4A7184E1F20}" ShortID="359700998">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Pyro_blast_NEW" ID="{D99F8024-CEEE-4623-A15A-86E382EE287D}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+													<ObjectRef Name="Pyro_blast_NEWER" ID="{A2A95D2C-513E-4157-9545-D51ADA8303B5}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -141,10 +141,10 @@
 								</Event>
 								<Event Name="Fireball_cast" ID="{61105158-FD6E-4571-A53C-26619D3D6614}">
 									<ChildrenList>
-										<Action Name="" ID="{B324884C-DF2E-44E1-A125-1D00B27D3AC4}" ShortID="878618421">
+										<Action Name="" ID="{15C00ADD-545B-4D8B-9E76-F7D313677C63}" ShortID="482681165">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Fireball Cast Metal" ID="{52F3EDDB-69B3-4B84-AB62-A78BF1C2587D}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+													<ObjectRef Name="Fireball_cast_METAL" ID="{46D2B77E-9CE5-4E78-8FC0-45C87FC7B7E3}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -156,10 +156,10 @@
 							<ChildrenList>
 								<Event Name="Punch_hit" ID="{28FFD55D-B37C-4C95-BC91-620E6CB797BF}">
 									<ChildrenList>
-										<Action Name="" ID="{CEFB940B-7C5C-4949-8970-0C52A8A99780}" ShortID="981827563">
+										<Action Name="" ID="{AC9A9845-DCB0-41A1-BFFE-3CC3EEA5A046}" ShortID="137067363">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="New_Punch_01" ID="{8A16FCF1-6906-4F3F-AEDC-02CEB4429769}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+													<ObjectRef Name="Punch_NEW" ID="{50C2A746-0704-4B57-B462-6811D1970B7D}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>

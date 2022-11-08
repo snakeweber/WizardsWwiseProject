@@ -154,7 +154,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{4DE4F0C6-D52A-C1F9-D1BC-85FE6BFDB7CC}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{0AC0D3BA-5E1C-71D5-1CD5-77160C11FEA2}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -170,10 +170,6 @@
 				<File Id="86987482" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>placeholder.wav</ShortName>
 					<CachePath>SFX/placeholder_10C4C929.wem</CachePath>
-				</File>
-				<File Id="145458098" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Pyro_blast_NEW.wav</ShortName>
-					<CachePath>SFX/Pyro_blast_NEW_10C4C929.wem</CachePath>
 				</File>
 				<File Id="189521572" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pyromancer_Select.wav</ShortName>
@@ -203,10 +199,6 @@
 					<ShortName>Shield_Recieved.wav</ShortName>
 					<CachePath>SFX/Shield_Recieved_10C4C929.wem</CachePath>
 				</File>
-				<File Id="470108203" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Fireball Cast Metal.wav</ShortName>
-					<CachePath>SFX/Fireball Cast Metal_10C4C929.wem</CachePath>
-				</File>
 				<File Id="522301813" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Exploding Unicorn Explode.wav</ShortName>
 					<CachePath>SFX/Exploding Unicorn Explode_10C4C929.wem</CachePath>
@@ -231,9 +223,21 @@
 					<ShortName>Movement Dwarf_01.wav</ShortName>
 					<CachePath>SFX/Movement Dwarf_01_10C4C929.wem</CachePath>
 				</File>
+				<File Id="618454019" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Fireball_cast_METAL.wav</ShortName>
+					<CachePath>SFX/Fireball_cast_METAL_10C4C929.wem</CachePath>
+				</File>
+				<File Id="703249878" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pyro_blast_NEWER.wav</ShortName>
+					<CachePath>SFX/Pyro_blast_NEWER_10C4C929.wem</CachePath>
+				</File>
 				<File Id="723830146" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Movement Unicorn_01.wav</ShortName>
 					<CachePath>SFX/Movement Unicorn_01_10C4C929.wem</CachePath>
+				</File>
+				<File Id="734994918" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Punch_NEW.wav</ShortName>
+					<CachePath>SFX/Punch_NEW_10C4C929.wem</CachePath>
 				</File>
 				<File Id="746625791" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pixie Attack.wav</ShortName>
@@ -254,10 +258,6 @@
 				<File Id="856057212" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fireball Impact.wav</ShortName>
 					<CachePath>SFX/Fireball Impact_10C4C929.wem</CachePath>
-				</File>
-				<File Id="970336557" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>New_Punch_01.wav</ShortName>
-					<CachePath>SFX/New_Punch_01_10C4C929.wem</CachePath>
 				</File>
 				<File Id="1017970394" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pixie Movement.wav</ShortName>
@@ -304,9 +304,9 @@
 						<MediaRef Id="526166105"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4229250388" Name="Fireball_cast" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Pyromancer\Fireball_cast" DurationType="OneShot" DurationMin="3.9230838" DurationMax="3.9230838">
+				<Event Id="4229250388" Name="Fireball_cast" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Pyromancer\Fireball_cast" DurationType="OneShot" DurationMin="3.6009524" DurationMax="3.6009524">
 					<MediaRefs>
-						<MediaRef Id="470108203"/>
+						<MediaRef Id="618454019"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="2975203331" Name="Fireball_impact" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Pyromancer\Fireball_impact" DurationType="OneShot" DurationMin="4.4423127" DurationMax="4.4423127">
@@ -352,9 +352,9 @@
 						<MediaRef Id="276047651"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3527566233" Name="Punch_hit" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Abjurer\Punch_hit" DurationType="OneShot" DurationMin="1.4948311" DurationMax="1.8833691">
+				<Event Id="3527566233" Name="Punch_hit" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Abjurer\Punch_hit" DurationType="OneShot" DurationMin="1.8990476" DurationMax="1.8990476">
 					<MediaRefs>
-						<MediaRef Id="970336557"/>
+						<MediaRef Id="734994918"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="3592039512" Name="Punch_whiff" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Abjurer\Punch_whiff" DurationType="OneShot" DurationMin="0.8180915" DurationMax="1.0307307">
@@ -364,7 +364,7 @@
 				</Event>
 				<Event Id="4080679518" Name="Pyro_blast" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Pyromancer\Pyro_blast" DurationType="OneShot" DurationMin="2.0769162" DurationMax="2.0769162">
 					<MediaRefs>
-						<MediaRef Id="145458098"/>
+						<MediaRef Id="703249878"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4121134294" Name="Pyromancer_select" ObjectPath="\Events\Default Work Unit\UI Sounds\Wizard Select Noises\Pyromancer_select" DurationType="OneShot" DurationMin="4.5138774" DurationMax="4.5138774">
@@ -411,5 +411,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{AADC3701-A90A-1D5F-8BAC-A11DDCB9ACBE}</FileHash>
+	<FileHash>{844E1377-BB6F-DBAD-E0BD-2D07AAD29140}</FileHash>
 </SoundBanksInfo>
