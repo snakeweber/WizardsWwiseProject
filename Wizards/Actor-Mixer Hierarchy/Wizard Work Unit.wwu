@@ -226,7 +226,7 @@
 										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-6</Value>
+												<Value>-2</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -252,53 +252,6 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Fireball Impact" ID="{B3659757-01F9-4A34-86C9-9779C1AEADC6}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Flame Blast" ID="{7366A3BE-8766-414F-80BA-A2F4CD9180FD}" ShortID="49007589">
-									<PropertyList>
-										<Property Name="3DSpatialization" Type="int16" Value="2"/>
-										<Property Name="Pitch" Type="int32">
-											<ModifierList>
-												<ModifierInfo>
-													<Modifier Name="" ID="{C4FD8A69-F89B-428D-8188-02AFF17B2454}">
-														<PropertyList>
-															<Property Name="Enabled" Type="bool" Value="True"/>
-															<Property Name="Max" Type="Real64" Value="200"/>
-															<Property Name="Min" Type="Real64" Value="-200"/>
-														</PropertyList>
-													</Modifier>
-												</ModifierInfo>
-											</ModifierList>
-										</Property>
-										<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
-										<Property Name="Volume" Type="Real64">
-											<ValueList>
-												<Value>-5</Value>
-											</ValueList>
-										</Property>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Attenuation">
-											<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
-										</Reference>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Flame Blast" ID="{FE095F5D-4FC4-404F-9BE8-2047349AF66F}">
-											<Language>SFX</Language>
-											<AudioFile>Flame Blast.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="328303304"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Flame Blast" ID="{FE095F5D-4FC4-404F-9BE8-2047349AF66F}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Flare Bolt" ID="{B8CEA57D-4183-4210-A063-57FB294F73E8}" ShortID="310053894">
@@ -395,8 +348,16 @@
 												</ModifierInfo>
 											</ModifierList>
 										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>2</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 										</Reference>
@@ -417,7 +378,7 @@
 										<ActiveSource Name="Fireball Cast Metal" ID="{15161EE8-36E8-4E5E-819B-65BB8C09B1D0}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
-								<Sound Name="Flame Blast_NEW" ID="{D35F5E24-535F-41C2-9327-8C90CED6B5C1}" ShortID="463169278">
+								<Sound Name="Flare Bolt_NEW" ID="{FB41B619-9E6A-48DB-8004-6385D187F5D6}" ShortID="376691378">
 									<PropertyList>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
@@ -426,35 +387,9 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
 										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
-										<AudioFileSource Name="Flare Bolt_NEW" ID="{836EED7E-B32B-44C0-946B-D5C776E8364D}">
-											<Language>SFX</Language>
-											<AudioFile>Flare Bolt_NEW.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="763209210"/>
-											</MediaIDList>
-										</AudioFileSource>
-										<AudioFileSource Name="Flame Blast_NEW" ID="{26E0C286-5470-49C7-BE7F-E175CC1751A3}">
-											<Language>SFX</Language>
-											<AudioFile>Flame Blast_NEW.wav</AudioFile>
-											<MediaIDList>
-												<MediaID ID="530281675"/>
-											</MediaIDList>
-										</AudioFileSource>
-									</ChildrenList>
-									<ActiveSourceList>
-										<ActiveSource Name="Flame Blast_NEW" ID="{26E0C286-5470-49C7-BE7F-E175CC1751A3}" Platform="Linked"/>
-									</ActiveSourceList>
-								</Sound>
-								<Sound Name="Flare Bolt_NEW" ID="{FB41B619-9E6A-48DB-8004-6385D187F5D6}" ShortID="376691378">
-									<ReferenceList>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 										</Reference>
@@ -473,6 +408,167 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Flare Bolt_NEW" ID="{4096DD39-5E7B-49E9-899B-B3F009A34CEB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<RandomSequenceContainer Name="Flame bolt sounds" ID="{389A9439-B0E7-4E02-8779-398E87B040EC}" ShortID="6549798">
+									<PropertyList>
+										<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>8</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Flame Blast" ID="{7366A3BE-8766-414F-80BA-A2F4CD9180FD}" ShortID="49007589">
+											<PropertyList>
+												<Property Name="3DSpatialization" Type="int16" Value="2"/>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{C4FD8A69-F89B-428D-8188-02AFF17B2454}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="UseGameAuxSends" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-5</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>20</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Attenuation">
+													<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
+												</Reference>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flame Blast" ID="{FE095F5D-4FC4-404F-9BE8-2047349AF66F}">
+													<Language>SFX</Language>
+													<AudioFile>Flame Blast.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="328303304"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flame Blast" ID="{FE095F5D-4FC4-404F-9BE8-2047349AF66F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Flame Blast_NEW" ID="{D35F5E24-535F-41C2-9327-8C90CED6B5C1}" ShortID="463169278">
+											<PropertyList>
+												<Property Name="Pitch" Type="int32">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{AE334066-ADD7-4596-AB59-BE7C6BC0CFF9}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="200"/>
+																	<Property Name="Min" Type="Real64" Value="-200"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>8</Value>
+													</ValueList>
+												</Property>
+												<Property Name="Weight" Type="Real64">
+													<ValueList>
+														<Value>80</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Flare Bolt_NEW" ID="{836EED7E-B32B-44C0-946B-D5C776E8364D}">
+													<Language>SFX</Language>
+													<AudioFile>Flare Bolt_NEW.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="763209210"/>
+													</MediaIDList>
+												</AudioFileSource>
+												<AudioFileSource Name="Flame Blast_NEW" ID="{26E0C286-5470-49C7-BE7F-E175CC1751A3}">
+													<Language>SFX</Language>
+													<AudioFile>Flame Blast_NEW.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="530281675"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Flame Blast_NEW" ID="{26E0C286-5470-49C7-BE7F-E175CC1751A3}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<Sound Name="Pyro_blast_NEW" ID="{D99F8024-CEEE-4623-A15A-86E382EE287D}" ShortID="599780758">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>10</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Pyro_blast_NEW" ID="{0E89703C-F2BC-49A6-96EB-7B2234C50BBE}">
+											<Language>SFX</Language>
+											<AudioFile>Pyro_blast_NEW.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="145458098"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Pyro_blast_NEW" ID="{0E89703C-F2BC-49A6-96EB-7B2234C50BBE}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
@@ -496,6 +592,9 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 										</Reference>
@@ -533,6 +632,9 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 										</Reference>
@@ -570,6 +672,9 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 										</Reference>
@@ -592,6 +697,9 @@
 								</Sound>
 								<Sound Name="Shield_Cast" ID="{E7ECC379-BE2E-4C57-8526-2E825585BA7B}" ShortID="1033422033">
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 										</Reference>
@@ -629,6 +737,9 @@
 										</Property>
 									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 										</Reference>

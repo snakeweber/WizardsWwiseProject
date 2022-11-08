@@ -154,7 +154,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C682A480-40F3-9578-1902-4779E7C02716}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{4DE4F0C6-D52A-C1F9-D1BC-85FE6BFDB7CC}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -170,6 +170,10 @@
 				<File Id="86987482" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>placeholder.wav</ShortName>
 					<CachePath>SFX/placeholder_10C4C929.wem</CachePath>
+				</File>
+				<File Id="145458098" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Pyro_blast_NEW.wav</ShortName>
+					<CachePath>SFX/Pyro_blast_NEW_10C4C929.wem</CachePath>
 				</File>
 				<File Id="189521572" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pyromancer_Select.wav</ShortName>
@@ -191,6 +195,10 @@
 					<ShortName>Default_TowerPlace.wav</ShortName>
 					<CachePath>SFX/Default_TowerPlace_10C4C929.wem</CachePath>
 				</File>
+				<File Id="423620553" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Enter the Sugarverse.wav</ShortName>
+					<CachePath>SFX/Enter the Sugarverse_10C4C929.wem</CachePath>
+				</File>
 				<File Id="467188632" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Shield_Recieved.wav</ShortName>
 					<CachePath>SFX/Shield_Recieved_10C4C929.wem</CachePath>
@@ -198,10 +206,6 @@
 				<File Id="470108203" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fireball Cast Metal.wav</ShortName>
 					<CachePath>SFX/Fireball Cast Metal_10C4C929.wem</CachePath>
-				</File>
-				<File Id="501470000" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>TempLobbyMusic.wav</ShortName>
-					<CachePath>SFX/TempLobbyMusic_10C4C929.wem</CachePath>
 				</File>
 				<File Id="522301813" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Exploding Unicorn Explode.wav</ShortName>
@@ -214,6 +218,10 @@
 				<File Id="526166105" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Fire sounds 01.wav</ShortName>
 					<CachePath>SFX/Fire sounds 01_4D7F3C83.wem</CachePath>
+				</File>
+				<File Id="530281675" Language="SFX" Streaming="false" Location="Memory">
+					<ShortName>Flame Blast_NEW.wav</ShortName>
+					<CachePath>SFX/Flame Blast_NEW_10C4C929.wem</CachePath>
 				</File>
 				<File Id="566077581" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Abjurer_Select.wav</ShortName>
@@ -230,10 +238,6 @@
 				<File Id="746625791" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Pixie Attack.wav</ShortName>
 					<CachePath>SFX/Pixie Attack_10C4C929.wem</CachePath>
-				</File>
-				<File Id="763209210" Language="SFX" Streaming="false" Location="Memory">
-					<ShortName>Flare Bolt_NEW.wav</ShortName>
-					<CachePath>SFX/Flare Bolt_NEW_10C4C929.wem</CachePath>
 				</File>
 				<File Id="781744998" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rock_Throw.wav</ShortName>
@@ -305,15 +309,15 @@
 						<MediaRef Id="470108203"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="2975203331" Name="Fireball_impact" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Pyromancer\Fireball_impact" DurationType="OneShot" DurationMin="5.1322265" DurationMax="5.1322265">
+				<Event Id="2975203331" Name="Fireball_impact" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Pyromancer\Fireball_impact" DurationType="OneShot" DurationMin="4.4423127" DurationMax="4.4423127">
 					<MediaRefs>
-						<MediaRef Id="526166105"/>
 						<MediaRef Id="856057212"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1622227216" Name="Flame_bolt" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Pyromancer\Flame_bolt" DurationType="OneShot" DurationMin="1.7561008" DurationMax="2.2125483">
 					<MediaRefs>
 						<MediaRef Id="328303304"/>
+						<MediaRef Id="530281675"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="1866025847" Name="Footstep" ObjectPath="\Events\Default Work Unit\Footstep" DurationType="OneShot" DurationMin="0" DurationMax="0"/>
@@ -338,9 +342,9 @@
 						<MediaRef Id="86987482"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="3117053400" Name="Placeholder_music" ObjectPath="\Events\Default Work Unit\Music\Placeholder_music" DurationType="OneShot" DurationMin="31.39424" DurationMax="31.39424">
+				<Event Id="3117053400" Name="Placeholder_music" ObjectPath="\Events\Default Work Unit\Music\Placeholder_music" DurationType="OneShot" DurationMin="97.90694" DurationMax="97.90694">
 					<MediaRefs>
-						<MediaRef Id="501470000"/>
+						<MediaRef Id="423620553"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="871813740" Name="Player_hit" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Player_hit" DurationType="OneShot" DurationMin="0.29807258" DurationMax="0.29807258">
@@ -358,9 +362,9 @@
 						<MediaRef Id="264760723"/>
 					</MediaRefs>
 				</Event>
-				<Event Id="4080679518" Name="Pyro_blast" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Pyromancer\Pyro_blast" DurationType="OneShot" DurationMin="1.8509524" DurationMax="1.8509524">
+				<Event Id="4080679518" Name="Pyro_blast" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Pyromancer\Pyro_blast" DurationType="OneShot" DurationMin="2.0769162" DurationMax="2.0769162">
 					<MediaRefs>
-						<MediaRef Id="763209210"/>
+						<MediaRef Id="145458098"/>
 					</MediaRefs>
 				</Event>
 				<Event Id="4121134294" Name="Pyromancer_select" ObjectPath="\Events\Default Work Unit\UI Sounds\Wizard Select Noises\Pyromancer_select" DurationType="OneShot" DurationMin="4.5138774" DurationMax="4.5138774">
@@ -407,5 +411,5 @@
 			</Events>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{942AEDBE-3F3A-7D2B-F3A4-67020E66B22D}</FileHash>
+	<FileHash>{AADC3701-A90A-1D5F-8BAC-A11DDCB9ACBE}</FileHash>
 </SoundBanksInfo>

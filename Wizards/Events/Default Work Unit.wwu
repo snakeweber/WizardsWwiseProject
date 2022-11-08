@@ -83,10 +83,10 @@
 							<ChildrenList>
 								<Event Name="Flame_bolt" ID="{EA403204-A798-4328-87BB-5AFD0DF43B00}">
 									<ChildrenList>
-										<Action Name="" ID="{18A581E5-0073-4E0F-86B5-82533B4B39D1}" ShortID="655298265">
+										<Action Name="" ID="{4DF76DFE-9BEB-4699-84B2-CA3E487845F3}" ShortID="648860230">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Flame Blast" ID="{7366A3BE-8766-414F-80BA-A2F4CD9180FD}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+													<ObjectRef Name="Flame bolt sounds" ID="{389A9439-B0E7-4E02-8779-398E87B040EC}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -94,10 +94,10 @@
 								</Event>
 								<Event Name="Pyro_blast" ID="{DCA44C5C-F7C3-4240-89D8-180CFEA81C87}">
 									<ChildrenList>
-										<Action Name="" ID="{946BC4C9-C5C6-4F02-96CA-D1BB36E559B2}" ShortID="594817635">
+										<Action Name="" ID="{0697B59B-E36A-4F10-85B6-A81022AE6A93}" ShortID="89690813">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Flame Blast_NEW" ID="{D35F5E24-535F-41C2-9327-8C90CED6B5C1}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+													<ObjectRef Name="Pyro_blast_NEW" ID="{D99F8024-CEEE-4623-A15A-86E382EE287D}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -124,6 +124,13 @@
 											</ReferenceList>
 										</Action>
 										<Action Name="" ID="{0E17E149-C953-4004-92AA-D97243A2819E}" ShortID="1049472462">
+											<PropertyList>
+												<Property Name="Inclusion" Type="bool">
+													<ValueList>
+														<Value>False</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Fire sounds 01" ID="{AD795D24-7632-425C-91BD-F271986C37E3}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
