@@ -572,7 +572,17 @@
 									</ActiveSourceList>
 								</Sound>
 								<Sound Name="Pyro_blast_NEWER" ID="{A2A95D2C-513E-4157-9545-D51ADA8303B5}" ShortID="621346966">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>4</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 										</Reference>
@@ -595,6 +605,9 @@
 								</Sound>
 								<Sound Name="Fireball_cast_METAL" ID="{46D2B77E-9CE5-4E78-8FC0-45C87FC7B7E3}" ShortID="356607227">
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 										</Reference>
@@ -806,6 +819,9 @@
 								</Sound>
 								<Sound Name="Punch_NEW" ID="{50C2A746-0704-4B57-B462-6811D1970B7D}" ShortID="895242568">
 									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
+										</Reference>
 										<Reference Name="Conversion">
 											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 										</Reference>
