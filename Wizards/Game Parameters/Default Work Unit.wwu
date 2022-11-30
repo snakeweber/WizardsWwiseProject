@@ -10,6 +10,21 @@
 								<Property Name="InitialValue" Type="Real64" Value="75"/>
 							</PropertyList>
 						</GameParameter>
+						<GameParameter Name="Ambience_Volume" ID="{FFFAFEB6-F21E-4551-8B50-00AD23995FAC}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="75"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="SFX_Volume" ID="{5ADEA400-7ADC-4187-A002-03CFB0E7DA6C}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="75"/>
+							</PropertyList>
+						</GameParameter>
+						<GameParameter Name="Music_Volume" ID="{42D0E714-1D95-41BF-B632-C7752D49526F}">
+							<PropertyList>
+								<Property Name="InitialValue" Type="Real64" Value="75"/>
+							</PropertyList>
+						</GameParameter>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>

@@ -3,7 +3,99 @@
 	<AudioObjects>
 		<WorkUnit Name="Tower Work Unit" ID="{62F2D687-16FE-48F2-99FD-5EDD312B7687}" PersistMode="Standalone">
 			<ChildrenList>
-				<Sound Name="Default_TowerPlace" ID="{352A1DBD-B40D-4853-AB7F-126EBE2ECBEA}" ShortID="616971140">
+				<Folder Name="Old" ID="{635E82A1-F644-4B21-877A-A15D7FF94933}" ShortID="208664448">
+					<ChildrenList>
+						<Sound Name="Default_TowerPlace" ID="{352A1DBD-B40D-4853-AB7F-126EBE2ECBEA}" ShortID="616971140">
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Default_TowerPlace" ID="{9392D8F5-694D-48A7-9FD3-92320C0A96FA}">
+									<Language>SFX</Language>
+									<AudioFile>Default_TowerPlace.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="365177855"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Default_TowerPlace" ID="{9392D8F5-694D-48A7-9FD3-92320C0A96FA}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Crystal Place" ID="{B3157032-CC93-486C-9B17-79D6B0F6470E}" ShortID="997106595">
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Crystal Place" ID="{5F63CD10-509C-4F08-92CA-C311BFC92CAF}">
+									<Language>SFX</Language>
+									<AudioFile>Crystal Place.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="636019929"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Crystal Place" ID="{5F63CD10-509C-4F08-92CA-C311BFC92CAF}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Crystal Shoot" ID="{E2D00B84-F6E0-489B-9C07-45C89F21BD1F}" ShortID="107219823">
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Crystal Shoot" ID="{A0F18064-057B-4418-BA81-F827D28C085F}">
+									<Language>SFX</Language>
+									<AudioFile>Crystal Shoot.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="342295062"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Crystal Shoot" ID="{A0F18064-057B-4418-BA81-F827D28C085F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</Folder>
+				<Sound Name="Dragon Shoot" ID="{EDB6634A-ECFB-4AE0-8382-D591F2A8014A}" ShortID="853807022">
+					<PropertyList>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>4</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Attenuation">
 							<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
@@ -12,22 +104,241 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+							<ObjectRef Name="SFX Bus" ID="{D8F71C51-85C9-4641-8B84-F4A0B9187923}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
-						<AudioFileSource Name="Default_TowerPlace" ID="{9392D8F5-694D-48A7-9FD3-92320C0A96FA}">
+						<AudioFileSource Name="Dragon Shoot" ID="{85463E24-BF4F-4EAB-9091-0090E5F2F1B5}">
 							<Language>SFX</Language>
-							<AudioFile>Default_TowerPlace.wav</AudioFile>
+							<AudioFile>Dragon Shoot.wav</AudioFile>
 							<MediaIDList>
-								<MediaID ID="365177855"/>
+								<MediaID ID="1011072163"/>
 							</MediaIDList>
 						</AudioFileSource>
 					</ChildrenList>
 					<ActiveSourceList>
-						<ActiveSource Name="Default_TowerPlace" ID="{9392D8F5-694D-48A7-9FD3-92320C0A96FA}" Platform="Linked"/>
+						<ActiveSource Name="Dragon Shoot" ID="{85463E24-BF4F-4EAB-9091-0090E5F2F1B5}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<RandomSequenceContainer Name="Dragon_Places" ID="{D177DFDD-2920-49F4-8439-01D16436314A}" ShortID="304841797">
+					<PropertyList>
+						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX Bus" ID="{D8F71C51-85C9-4641-8B84-F4A0B9187923}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Dragon Place" ID="{9F507C02-8D89-49D9-B65F-6F4ADCA9E1CB}" ShortID="295637570">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dragon Place" ID="{BD50B472-6FC1-4868-A9A2-ADE3469675E7}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="0"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.47491779118045"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Dragon Place.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="767488270"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Dragon Place" ID="{BD50B472-6FC1-4868-A9A2-ADE3469675E7}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Dragon Place_01" ID="{A5608B33-5699-4416-AE32-70196AC55681}" ShortID="917223673">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dragon Place" ID="{52DFBF17-F3DF-4676-A171-AB3175F803D4}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="3.68437987917813"/>
+										<Property Name="TrimEnd" Type="Real64" Value="6.3048810698398"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Dragon Place.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="235585628"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Dragon Place" ID="{52DFBF17-F3DF-4676-A171-AB3175F803D4}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Dragon Place_02" ID="{7284FBF0-9F45-4E6B-94D3-DBDCE519DF87}" ShortID="506476521">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Dragon Place" ID="{07DDB7C3-7D31-4610-B0AF-F319E807206F}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="7.27916997406014"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="7.27916997406014"/>
+										<Property Name="TrimEnd" Type="Real64" Value="10.045254564203"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Dragon Place.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="557527398"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Dragon Place" ID="{07DDB7C3-7D31-4610-B0AF-F319E807206F}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
+				<Sound Name="Crystal Shoot NEW" ID="{2B03FCA4-76FE-4623-BA44-597EB18A8010}" ShortID="1034399884">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX Bus" ID="{D8F71C51-85C9-4641-8B84-F4A0B9187923}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Crystal Shoot NEW" ID="{9DED1767-CA53-442C-8D3B-AD77899C249E}">
+							<Language>SFX</Language>
+							<AudioFile>Crystal Shoot NEW.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="195254728"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Crystal Shoot NEW" ID="{9DED1767-CA53-442C-8D3B-AD77899C249E}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<RandomSequenceContainer Name="Crystal_Places" ID="{6CC0F583-A607-4003-B70F-2FFB8E3C55BF}" ShortID="70577668">
+					<PropertyList>
+						<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX Bus" ID="{D8F71C51-85C9-4641-8B84-F4A0B9187923}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Crystal Place NEW" ID="{BD14452B-1F34-42B6-BCD0-B5E1476E3C6F}" ShortID="60974356">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Crystal Place NEW" ID="{910BE496-915D-41CC-9EAF-7D5346A89958}">
+									<PropertyList>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimEnd" Type="Real64" Value="2.0366891938726"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Crystal Place NEW.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="896939368"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Crystal Place NEW" ID="{910BE496-915D-41CC-9EAF-7D5346A89958}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Crystal Place NEW_01" ID="{D46D5846-D651-411D-8C36-A58B924000D9}" ShortID="721595974">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Crystal Place NEW" ID="{409D91E5-ED54-4041-BECC-3A9FDF85B72D}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="2.28011818118805"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="2.28011818118805"/>
+										<Property Name="TrimEnd" Type="Real64" Value="4.74686525265128"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Crystal Place NEW.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="405679622"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Crystal Place NEW" ID="{409D91E5-ED54-4041-BECC-3A9FDF85B72D}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Crystal Place NEW_02" ID="{ECC51E6B-AAFE-419F-9CFA-AB4DBFBEA925}" ShortID="303017219">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Crystal Place NEW" ID="{22FDA1B6-148F-4D59-829B-BEEB6F5997A9}">
+									<PropertyList>
+										<Property Name="LoopBegin" Type="Real64" Value="5.50960941290636"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="5.50960941290636"/>
+										<Property Name="TrimEnd" Type="Real64" Value="7.40024121438969"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Crystal Place NEW.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="306138634"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Crystal Place NEW" ID="{22FDA1B6-148F-4D59-829B-BEEB6F5997A9}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

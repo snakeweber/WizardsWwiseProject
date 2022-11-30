@@ -19,7 +19,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+							<ObjectRef Name="SFX Bus" ID="{D8F71C51-85C9-4641-8B84-F4A0B9187923}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -48,7 +48,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+							<ObjectRef Name="SFX Bus" ID="{D8F71C51-85C9-4641-8B84-F4A0B9187923}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -67,6 +67,24 @@
 				<Folder Name="Unicorn" ID="{BE5A3E2C-654A-4444-B0EE-6FCC4DD60DD5}" ShortID="357352969">
 					<ChildrenList>
 						<Sound Name="Movement Unicorn_01" ID="{2660EC09-D543-4550-98C5-238B2812F426}" ShortID="777661941">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
 									<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
@@ -75,7 +93,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+									<ObjectRef Name="SFX Bus" ID="{D8F71C51-85C9-4641-8B84-F4A0B9187923}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -95,7 +113,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>5</Value>
+										<Value>4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -107,7 +125,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+									<ObjectRef Name="SFX Bus" ID="{D8F71C51-85C9-4641-8B84-F4A0B9187923}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -128,6 +146,13 @@
 				<Folder Name="Dwarf" ID="{5B99426D-99DD-4E21-BB29-2A1115D48980}" ShortID="521599372">
 					<ChildrenList>
 						<Sound Name="Deconstruct Tower_01" ID="{2BA2EBC1-315F-40CA-A1A0-E69A11C08297}" ShortID="19223412">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
 									<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
@@ -136,7 +161,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+									<ObjectRef Name="SFX Bus" ID="{D8F71C51-85C9-4641-8B84-F4A0B9187923}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -153,6 +178,24 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Movement Dwarf_01" ID="{7C6FD32C-EF89-4F1B-A6C3-C84B608DCE93}" ShortID="274774648">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
 									<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
@@ -161,7 +204,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+									<ObjectRef Name="SFX Bus" ID="{D8F71C51-85C9-4641-8B84-F4A0B9187923}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -190,7 +233,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+									<ObjectRef Name="SFX Bus" ID="{D8F71C51-85C9-4641-8B84-F4A0B9187923}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -207,6 +250,24 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Pixie Movement" ID="{977E9744-E0DC-4562-BD0C-9C56DCB4DD71}" ShortID="138799672">
+							<PropertyList>
+								<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+								<Property Name="MaxSoundPerInstance" Type="int16">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="UseMaxSoundPerInstance" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>3</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Attenuation">
 									<ObjectRef Name="Spell_distance" ID="{42A09677-5870-45FE-861E-D8DDB42D81E8}" WorkUnitID="{54AEB9EA-ADAA-4478-AAFE-AC2C2E608035}"/>
@@ -215,7 +276,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+									<ObjectRef Name="SFX Bus" ID="{D8F71C51-85C9-4641-8B84-F4A0B9187923}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
@@ -262,7 +323,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+							<ObjectRef Name="SFX Bus" ID="{D8F71C51-85C9-4641-8B84-F4A0B9187923}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -286,8 +347,14 @@
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 						</Reference>
+						<Reference Name="DefaultSwitchOrState">
+							<ObjectRef Name="True" ID="{73DE096A-E54B-4B65-81E5-E0D95E09F429}" WorkUnitID="{16879D55-FDC9-4214-B881-FE3DB514CFC9}"/>
+						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+							<ObjectRef Name="SFX Bus" ID="{D8F71C51-85C9-4641-8B84-F4A0B9187923}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+						</Reference>
+						<Reference Name="SwitchGroupOrStateGroup">
+							<ObjectRef Name="Has_Gore" ID="{725D9463-7A7B-45F0-93E2-C9143C2903DE}" WorkUnitID="{16879D55-FDC9-4214-B881-FE3DB514CFC9}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -345,8 +412,44 @@
 								<ItemRef Name="Enemy Die_01" ID="{BCE13FE4-065D-4BEF-8CAC-8276150DE728}"/>
 							</GroupingBehavior>
 						</GroupingBehaviorList>
+						<GroupingList>
+							<Grouping>
+								<SwitchRef Name="True" ID="{73DE096A-E54B-4B65-81E5-E0D95E09F429}"/>
+								<ItemList>
+									<ItemRef Name="Enemy Die_01" ID="{BCE13FE4-065D-4BEF-8CAC-8276150DE728}"/>
+								</ItemList>
+							</Grouping>
+							<Grouping>
+								<SwitchRef Name="False" ID="{8B6672E1-0F55-4B44-8257-7C2B4A8A49E1}"/>
+								<ItemList>
+									<ItemRef Name="Enemy Die Confetti_01" ID="{D6315017-6643-413B-99E0-A147B1C72F43}"/>
+								</ItemList>
+							</Grouping>
+						</GroupingList>
 					</GroupingInfo>
 				</SwitchContainer>
+				<Sound Name="Enemy Die_01" ID="{79E3462A-56DE-40F6-AAD0-3E6C820877A7}" ShortID="155923391">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX Bus" ID="{D8F71C51-85C9-4641-8B84-F4A0B9187923}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Enemy Die_01" ID="{8D7035FD-277A-47C8-BCEC-16919255A554}">
+							<Language>SFX</Language>
+							<AudioFile>Enemy Die_01.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="129178476"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Enemy Die_01" ID="{8D7035FD-277A-47C8-BCEC-16919255A554}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

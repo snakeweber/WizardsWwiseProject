@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{16879D55-FDC9-4214-B881-FE3DB514CFC9}" SchemaVersion="110">
 	<Switches>
-		<WorkUnit Name="Default Work Unit" ID="{16879D55-FDC9-4214-B881-FE3DB514CFC9}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{16879D55-FDC9-4214-B881-FE3DB514CFC9}" PersistMode="Standalone">
+			<ChildrenList>
+				<SwitchGroup Name="Has_Gore" ID="{725D9463-7A7B-45F0-93E2-C9143C2903DE}">
+					<ChildrenList>
+						<Switch Name="True" ID="{73DE096A-E54B-4B65-81E5-E0D95E09F429}"/>
+						<Switch Name="False" ID="{8B6672E1-0F55-4B44-8257-7C2B4A8A49E1}"/>
+					</ChildrenList>
+				</SwitchGroup>
+				<SwitchGroup Name="Evilness_Level" ID="{A6C225A2-1CAF-4089-B0A6-ACA61BA3DCB8}">
+					<ChildrenList>
+						<Switch Name="Early" ID="{9A8FB215-DE66-4DC2-8496-2E856825A3F3}"/>
+						<Switch Name="Mid" ID="{B2866215-EDE7-41DB-B6C9-A17E51FC1CC5}"/>
+						<Switch Name="Late" ID="{02E2790D-9ECA-4338-B554-81D6D57FF95E}"/>
+					</ChildrenList>
+				</SwitchGroup>
+			</ChildrenList>
+		</WorkUnit>
 	</Switches>
 </WwiseDocument>

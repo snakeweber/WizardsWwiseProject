@@ -90,11 +90,25 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{785A5DE1-29FE-4A4F-9CE8-25E313746F1A}" ShortID="376711350">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Flare_chords" ID="{11225BA1-4B5A-4915-BCCA-830647697013}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Pyro_blast" ID="{DCA44C5C-F7C3-4240-89D8-180CFEA81C87}">
 									<ChildrenList>
-										<Action Name="" ID="{C563D87D-5B52-4C2B-90C8-C4A7184E1F20}" ShortID="359700998">
+										<Action Name="" ID="{5A4D52D3-4A3B-48E7-864B-4EE0815A345F}" ShortID="332474357">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Pyro_blast_METAL" ID="{EF948CD9-235F-40B5-81CB-5275F709A07F}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{C02907A9-C039-4816-B67C-04A045A04853}" ShortID="548949886">
 											<ReferenceList>
 												<Reference Name="Target">
 													<ObjectRef Name="Pyro_blast_NEWER" ID="{A2A95D2C-513E-4157-9545-D51ADA8303B5}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
@@ -148,6 +162,13 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
+										<Action Name="" ID="{B59DE4EE-890E-42CF-BC82-06C77D96C5C5}" ShortID="343000946">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Fireball Cast" ID="{F382C948-FBE5-4620-9B13-E5872F10CAC4}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
 									</ChildrenList>
 								</Event>
 							</ChildrenList>
@@ -156,10 +177,17 @@
 							<ChildrenList>
 								<Event Name="Punch_hit" ID="{28FFD55D-B37C-4C95-BC91-620E6CB797BF}">
 									<ChildrenList>
-										<Action Name="" ID="{AC9A9845-DCB0-41A1-BFFE-3CC3EEA5A046}" ShortID="137067363">
+										<Action Name="" ID="{43ED6748-DE2E-4E41-BE60-3DDF6FA19F06}" ShortID="878169187">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Punch_NEW" ID="{50C2A746-0704-4B57-B462-6811D1970B7D}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+													<ObjectRef Name="Punch_NEWER" ID="{77EBD99E-259D-4B01-8CBD-CF9073389B16}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+										<Action Name="" ID="{932C3DBC-0AA1-44FA-8E4A-B0351776D027}" ShortID="60342793">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Punch_tommies" ID="{CC098329-0736-4C59-9E7E-6C14E8A1B7E7}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -167,10 +195,10 @@
 								</Event>
 								<Event Name="Punch_whiff" ID="{F0BF692A-F266-4AC6-97C4-3B7767EB8D56}">
 									<ChildrenList>
-										<Action Name="" ID="{5AC0386B-FE3F-4D29-8E88-E9FC7C8BD09D}" ShortID="15013524">
+										<Action Name="" ID="{1EE6A513-9ACB-416B-B3AC-C6D8418F3A1F}" ShortID="155843797">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Punch_whiffed" ID="{B266380D-2334-4013-864D-C1F6717C44BA}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+													<ObjectRef Name="Punch_whiffed" ID="{DA9BA957-4375-4F8D-99D9-F54204D3A73C}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -178,10 +206,10 @@
 								</Event>
 								<Event Name="Rock_throw" ID="{F9CD7217-A9E7-4291-8EA2-42E71EE63D4A}">
 									<ChildrenList>
-										<Action Name="" ID="{AA96EF4B-7822-4EEC-B730-9CC811379607}" ShortID="451903948">
+										<Action Name="" ID="{AC419960-AAB3-4E5F-840E-E46FF399024C}" ShortID="123440722">
 											<ReferenceList>
 												<Reference Name="Target">
-													<ObjectRef Name="Rock_Throw" ID="{6A53FA8E-9AEC-447C-865C-9EE974A8586C}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+													<ObjectRef Name="Rock_Launch" ID="{A74BF7C7-3928-44E0-B3C5-B23060F21B9E}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
 												</Reference>
 											</ReferenceList>
 										</Action>
@@ -209,6 +237,28 @@
 										</Action>
 									</ChildrenList>
 								</Event>
+								<Event Name="Rock_charge" ID="{996016E9-88CF-459C-8AFC-55250158F1D8}">
+									<ChildrenList>
+										<Action Name="" ID="{6F04CC68-4461-463A-8AB1-45334CB6B1C6}" ShortID="859482680">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Rock_Charge_NEW" ID="{839B1A60-F165-4822-983A-912AE1EE888A}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+								<Event Name="Rock_impact" ID="{51B1D787-A9A6-4C1D-8A4A-F75F0CEB5E1E}">
+									<ChildrenList>
+										<Action Name="" ID="{C7A95B0A-20D2-4344-8CFB-122606BAC8CF}" ShortID="215338393">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Rock_Impact" ID="{5383EC4C-F9C0-4BDB-BD4E-DD571487DDD6}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
 							</ChildrenList>
 						</Folder>
 						<Event Name="Player_hit" ID="{627C663C-E560-4F55-8136-A529E0A0FD0F}">
@@ -231,7 +281,7 @@
 								<Action Name="" ID="{C045A73A-9FFF-4843-A28A-F70E1BE593E0}" ShortID="41024803">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Enemy Hit_01" ID="{87472325-3331-4A6A-A8ED-0EF0816174B2}" WorkUnitID="{CD3408BF-4DB1-4704-8783-4CEAA59D44BE}"/>
+											<ObjectRef Name="hit" ID="{EDAD2FD9-E110-42EC-A529-2DFFFC4AA8B7}" WorkUnitID="{CD3408BF-4DB1-4704-8783-4CEAA59D44BE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -239,10 +289,10 @@
 						</Event>
 						<Event Name="Enemy_die" ID="{0B55AE0E-C5D9-40F6-945C-EA134B7776BD}">
 							<ChildrenList>
-								<Action Name="" ID="{794C505C-213C-4027-AE2D-1E5023A2DA3F}" ShortID="921685327">
+								<Action Name="" ID="{C223136E-B6F4-4F35-9D3B-B8F49C378DD3}" ShortID="512074529">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Enemy_Death" ID="{D303B1FA-5AE7-4558-9526-C9C74C791306}" WorkUnitID="{CD3408BF-4DB1-4704-8783-4CEAA59D44BE}"/>
+											<ObjectRef Name="Enemy Die_01" ID="{79E3462A-56DE-40F6-AAD0-3E6C820877A7}" WorkUnitID="{CD3408BF-4DB1-4704-8783-4CEAA59D44BE}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -359,12 +409,45 @@
 				</Folder>
 				<Folder Name="Tower Sounds" ID="{30179BE2-F2CF-4F3F-9491-5F479DE4B761}" ShortID="841920419">
 					<ChildrenList>
-						<Event Name="Tower_place" ID="{65A8AC96-D6F2-45C5-A059-165498DC393C}">
+						<Event Name="Crystal_place" ID="{BD354680-D9FA-404E-8587-6472A386EDB5}">
 							<ChildrenList>
-								<Action Name="" ID="{3D93BE38-642A-4C81-A884-93D2E8974F23}" ShortID="697129850">
+								<Action Name="" ID="{5A5C745F-466A-4632-B200-0CB25F964AA4}" ShortID="975502394">
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="Default_TowerPlace" ID="{352A1DBD-B40D-4853-AB7F-126EBE2ECBEA}" WorkUnitID="{62F2D687-16FE-48F2-99FD-5EDD312B7687}"/>
+											<ObjectRef Name="Crystal_Places" ID="{6CC0F583-A607-4003-B70F-2FFB8E3C55BF}" WorkUnitID="{62F2D687-16FE-48F2-99FD-5EDD312B7687}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Crystal_shoot" ID="{904AB43C-90AF-4906-9475-D2A2847D2B68}">
+							<ChildrenList>
+								<Action Name="" ID="{3680EFDD-80A0-4541-AFA7-06EC0CEC15ED}" ShortID="176515116">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Crystal Shoot NEW" ID="{2B03FCA4-76FE-4623-BA44-597EB18A8010}" WorkUnitID="{62F2D687-16FE-48F2-99FD-5EDD312B7687}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Dragon_place" ID="{D0D226E3-D1FC-43E0-AD2C-E3BD4CAE4E7F}">
+							<ChildrenList>
+								<Action Name="" ID="{E0E73E24-A363-441A-960C-323258CF758F}" ShortID="1024424943">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dragon_Places" ID="{D177DFDD-2920-49F4-8439-01D16436314A}" WorkUnitID="{62F2D687-16FE-48F2-99FD-5EDD312B7687}"/>
+										</Reference>
+									</ReferenceList>
+								</Action>
+							</ChildrenList>
+						</Event>
+						<Event Name="Dragon_shoot" ID="{5BD39041-A13E-4F4B-B0D1-076BDF871413}">
+							<ChildrenList>
+								<Action Name="" ID="{A09AE7FC-5E5E-41C4-9F4E-E1B271228728}" ShortID="610603165">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="Dragon Shoot" ID="{EDB6634A-ECFB-4AE0-8382-D591F2A8014A}" WorkUnitID="{62F2D687-16FE-48F2-99FD-5EDD312B7687}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -389,6 +472,7 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
+						<Folder Name="Ambience" ID="{3DAE37A0-B122-41AC-B32C-CDD0A14033CD}" ShortID="903337998"/>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
