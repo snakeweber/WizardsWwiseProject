@@ -9,7 +9,7 @@
 	</RootPaths>
 	<DialogueEvents/>
 	<SoundBanks>
-		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{B7DBB6E3-4312-5D89-9BDA-0654F2E41A70}">
+		<SoundBank Id="1355168291" Type="User" Language="SFX" Hash="{96FEC1A8-12B3-618A-9978-D5583DD99681}">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
@@ -21,15 +21,22 @@
 			</Plugins>
 			<Busses>
 				<Bus Id="985987111" Name="Motion Factory Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Motion Factory Bus"/>
+				<Bus Id="1207363161" Name="Ambient Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Ambient Bus"/>
+				<Bus Id="1502772432" Name="SFX Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX Bus"/>
+				<Bus Id="3127962312" Name="Music Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Music Bus"/>
 				<Bus Id="3803692087" Name="Master Audio Bus" ObjectPath="\Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus"/>
 			</Busses>
 			<GameParameters>
 				<GameParameter Id="796049864" Name="RPM" ObjectPath="\Game Parameters\Factory Motion\RPM"/>
 				<GameParameter Id="822163944" Name="SS_Air_RPM" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_RPM"/>
+				<GameParameter Id="1006694123" Name="Music_Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume\Music_Volume"/>
 				<GameParameter Id="1029930033" Name="SS_Air_Fury" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Fury"/>
 				<GameParameter Id="1351367891" Name="SS_Air_Fear" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Fear"/>
 				<GameParameter Id="1524500807" Name="Playback_Rate" ObjectPath="\Game Parameters\Factory Motion\Playback_Rate"/>
+				<GameParameter Id="1564184899" Name="SFX_Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume\SFX_Volume"/>
+				<GameParameter Id="2383429734" Name="Ambience_Loop" ObjectPath="\Game Parameters\Default Work Unit\Ambience_Loop"/>
 				<GameParameter Id="2648548617" Name="SS_Air_Month" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Month"/>
+				<GameParameter Id="2901143258" Name="Ambience_Volume" ObjectPath="\Game Parameters\Default Work Unit\Volume\Ambience_Volume"/>
 				<GameParameter Id="3002758120" Name="SS_Air_Freefall" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Freefall"/>
 				<GameParameter Id="3074696722" Name="SS_Air_Size" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_Size"/>
 				<GameParameter Id="3203397129" Name="SS_Air_TimeOfDay" ObjectPath="\Game Parameters\Factory Soundseed Air Game Syncs\SS_Air_TimeOfDay"/>
@@ -40,7 +47,17 @@
 			</GameParameters>
 			<SwitchGroups>
 				<SwitchGroup Id="1802073655" Name="Has_Gore" ObjectPath="\Switches\Default Work Unit\Has_Gore">
-					<Switches/>
+					<Switches>
+						<Switch Id="2452206122" Name="False" ObjectPath="\Switches\Default Work Unit\Has_Gore\False"/>
+						<Switch Id="3053630529" Name="True" ObjectPath="\Switches\Default Work Unit\Has_Gore\True"/>
+					</Switches>
+				</SwitchGroup>
+				<SwitchGroup Id="2008656109" Name="Evilness_Level" ObjectPath="\Switches\Default Work Unit\Evilness_Level">
+					<Switches>
+						<Switch Id="506746433" Name="Late" ObjectPath="\Switches\Default Work Unit\Evilness_Level\Late"/>
+						<Switch Id="1182670505" Name="Mid" ObjectPath="\Switches\Default Work Unit\Evilness_Level\Mid"/>
+						<Switch Id="3881926874" Name="Early" ObjectPath="\Switches\Default Work Unit\Evilness_Level\Early"/>
+					</Switches>
 				</SwitchGroup>
 			</SwitchGroups>
 			<AcousticTextures>
@@ -158,7 +175,7 @@
 				</AcousticTexture>
 			</AcousticTextures>
 		</SoundBank>
-		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{C42BF46E-381A-CE35-5E7C-4317D1AF57A2}">
+		<SoundBank Id="3161908922" Type="User" Language="SFX" Hash="{238B2CBD-3AD1-04ED-8924-E860AA27D9D1}">
 			<ObjectPath>\SoundBanks\Default Work Unit\Main</ObjectPath>
 			<ShortName>Main</ShortName>
 			<Path>Main.bnk</Path>
@@ -213,7 +230,7 @@
 				</File>
 				<File Id="306138634" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Crystal Place NEW.wav</ShortName>
-					<CachePath>SFX/Crystal Place NEW_D9526BC7.wem</CachePath>
+					<CachePath>SFX/Crystal Place NEW_2546B2C7.wem</CachePath>
 				</File>
 				<File Id="313192896" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>metal_chords.wav</ShortName>
@@ -229,7 +246,7 @@
 				</File>
 				<File Id="405679622" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Crystal Place NEW.wav</ShortName>
-					<CachePath>SFX/Crystal Place NEW_376879D1.wem</CachePath>
+					<CachePath>SFX/Crystal Place NEW_22EECDE5.wem</CachePath>
 				</File>
 				<File Id="423620553" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Enter the Sugarverse.wav</ShortName>
@@ -325,7 +342,7 @@
 				</File>
 				<File Id="896939368" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Crystal Place NEW.wav</ShortName>
-					<CachePath>SFX/Crystal Place NEW_A732560E.wem</CachePath>
+					<CachePath>SFX/Crystal Place NEW_38D42EBF.wem</CachePath>
 				</File>
 				<File Id="960884526" Language="SFX" Streaming="false" Location="Memory">
 					<ShortName>Rock_Launch.wav</ShortName>
@@ -464,6 +481,7 @@
 						<MediaRef Id="423620553"/>
 					</MediaRefs>
 				</Event>
+				<Event Id="278617630" Name="Play_ambience" ObjectPath="\Events\Default Work Unit\World Sounds\Ambience\Play_ambience" DurationType="Infinite"/>
 				<Event Id="871813740" Name="Player_hit" ObjectPath="\Events\Default Work Unit\Wizard Sounds\Player_hit" DurationType="OneShot" DurationMin="0.29807258" DurationMax="0.29807258">
 					<MediaRefs>
 						<MediaRef Id="276047651"/>
@@ -536,7 +554,16 @@
 					</MediaRefs>
 				</Event>
 			</Events>
+			<SwitchGroups>
+				<SwitchGroup Id="2008656109" Name="Evilness_Level" ObjectPath="\Switches\Default Work Unit\Evilness_Level">
+					<Switches>
+						<Switch Id="506746433" Name="Late" ObjectPath="\Switches\Default Work Unit\Evilness_Level\Late"/>
+						<Switch Id="1182670505" Name="Mid" ObjectPath="\Switches\Default Work Unit\Evilness_Level\Mid"/>
+						<Switch Id="3881926874" Name="Early" ObjectPath="\Switches\Default Work Unit\Evilness_Level\Early"/>
+					</Switches>
+				</SwitchGroup>
+			</SwitchGroups>
 		</SoundBank>
 	</SoundBanks>
-	<FileHash>{8A66F869-EB1B-2109-73CC-93889FC49B3B}</FileHash>
+	<FileHash>{7DCD742C-2F85-F501-A4F5-6DA1AA17B707}</FileHash>
 </SoundBanksInfo>

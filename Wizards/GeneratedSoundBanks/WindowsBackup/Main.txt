@@ -3,6 +3,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	16655299	Warlock_select			\Default Work Unit\UI Sounds\Wizard Select Noises\Warlock_select	
 	159242366	Alchemist_select			\Default Work Unit\UI Sounds\Wizard Select Noises\Alchemist_select	
 	184491924	Dragon_place			\Default Work Unit\Tower Sounds\Dragon_place	
+	278617630	Play_ambience			\Default Work Unit\World Sounds\Ambience\Play_ambience	
 	871813740	Player_hit			\Default Work Unit\Wizard Sounds\Player_hit	
 	1010055213	Enemy_hit			\Default Work Unit\Enemy Sounds\Enemy_hit	
 	1142304696	Enemy_die			\Default Work Unit\Enemy Sounds\Enemy_die	
@@ -34,6 +35,14 @@ Event	ID	Name			Wwise Object Path	Notes
 	4136547507	Fire_burn			\Default Work Unit\Wizard Sounds\Pyromancer\Fire_burn	
 	4229250388	Fireball_cast			\Default Work Unit\Wizard Sounds\Pyromancer\Fireball_cast	
 
+Switch Group	ID	Name			Wwise Object Path	Notes
+	2008656109	Evilness_Level			\Default Work Unit\Evilness_Level	
+
+Switch	ID	Name	Switch Group			Notes
+	506746433	Late	Evilness_Level			
+	1182670505	Mid	Evilness_Level			
+	3881926874	Early	Evilness_Level			
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	23245587	Rock_Impact	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\Rock_Impact_10C4C929.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard Sounds\Abjurer\Rock_Impact		500452
 	29729184	Shield_Cast	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\Shield_Cast_10C4C929.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard Sounds\Abjurer\Old\Shield_Cast		325804
@@ -47,11 +56,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	235585628	Dragon Place_01	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\Dragon Place_CF3A06B0.wem		\Actor-Mixer Hierarchy\Tower Work Unit\Dragon_Places\Dragon Place_01		462400
 	244617004	Punch_Toms_01	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\Punch_Toms_36F3DC1B.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard Sounds\Abjurer\Punch_tommies\Punch_Toms_01		179720
 	276047651	Player_hit	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\Player_hit_10C4C929.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard Sounds\Player_hit		52724
-	306138634	Crystal Place NEW_02	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\Crystal Place NEW_D9526BC7.wem		\Actor-Mixer Hierarchy\Tower Work Unit\Crystal_Places\Crystal Place NEW_02		333652
+	306138634	Crystal Place NEW_02	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\Crystal Place NEW_2546B2C7.wem		\Actor-Mixer Hierarchy\Tower Work Unit\Crystal_Places\Crystal Place NEW_02		333652
 	313192896	metal_chords_02	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\metal_chords_93986B7C.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard Sounds\Pyromancer\Flare_chords\metal_chords_02		322260
 	315045297	Punch_Toms_02	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\Punch_Toms_7B9E2ED4.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard Sounds\Abjurer\Punch_tommies\Punch_Toms_02		174628
 	328303304	Flame Blast	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\Flame Blast_D0944295.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard Sounds\Pyromancer\Flame bolt sounds\Flame Blast		331948
-	405679622	Crystal Place NEW_01	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\Crystal Place NEW_376879D1.wem		\Actor-Mixer Hierarchy\Tower Work Unit\Crystal_Places\Crystal Place NEW_01		435280
+	405679622	Crystal Place NEW_01	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\Crystal Place NEW_22EECDE5.wem		\Actor-Mixer Hierarchy\Tower Work Unit\Crystal_Places\Crystal Place NEW_01		435280
 	423620553	TempLobbyMusic	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\Enter the Sugarverse_10C4C929.wem		\Actor-Mixer Hierarchy\Music Work Unit\TempLobbyMusic		17270880
 	435052298	Punch_NEWER	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\Punch_NEWER_10C4C929.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard Sounds\Abjurer\Punch_NEWER		153732
 	467188632	Shield_Received	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\Shield_Recieved_10C4C929.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard Sounds\Abjurer\Shield_Received		162128
@@ -75,7 +84,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	835961842	Orb damage 01	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\Orb damage 01_10C4C929.wem		\Actor-Mixer Hierarchy\World Work Unit\Orb\Orb damaged\Orb damage 01		122268
 	853949283	metal_chords	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\metal_chords_2DDE193B.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard Sounds\Pyromancer\Flare_chords\metal_chords		302392
 	856057212	Fireball Impact	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\Fireball Impact_10C4C929.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard Sounds\Pyromancer\Fireball Impact		783768
-	896939368	Crystal Place NEW	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\Crystal Place NEW_A732560E.wem		\Actor-Mixer Hierarchy\Tower Work Unit\Crystal_Places\Crystal Place NEW		359416
+	896939368	Crystal Place NEW	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\Crystal Place NEW_38D42EBF.wem		\Actor-Mixer Hierarchy\Tower Work Unit\Crystal_Places\Crystal Place NEW		359416
 	960884526	Rock_Launch	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\Rock_Launch_10C4C929.wem		\Actor-Mixer Hierarchy\Wizard Work Unit\Wizard Sounds\Abjurer\Rock_Launch		292116
 	1011072163	Dragon Shoot	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\Dragon Shoot_10C4C929.wem		\Actor-Mixer Hierarchy\Tower Work Unit\Dragon Shoot		203684
 	1017970394	Pixie Movement	D:\jakew\Documents\GitHub\WizardsWwiseProject\Wizards\.cache\WindowsBackup\SFX\Pixie Movement_10C4C929.wem		\Actor-Mixer Hierarchy\Enemy Work Unit\Pixie\Pixie Movement		588144

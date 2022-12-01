@@ -190,6 +190,12 @@
 							<PropertyList>
 								<Property Name="3DPosition" Type="int16" Value="2"/>
 								<Property Name="3DSpatialization" Type="int16" Value="1"/>
+								<Property Name="SwitchBehavior" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-10</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -206,11 +212,9 @@
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
-								<RandomSequenceContainer Name="Late_game" ID="{F5F910EA-CFB9-4BAB-BC52-AAA2154A5905}" ShortID="190942099">
+								<BlendContainer Name="Early Ambience" ID="{76407B31-93A1-47AB-BF93-96FB516BB2BB}" ShortID="525812236">
 									<PropertyList>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="BlendBehavior" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -221,114 +225,138 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="World Utterly Screwed_Birds" ID="{15D3DDB9-CB88-4F78-83A1-C30F467C422C}" ShortID="592788793">
+										<Sound Name="World Just Fine_Wind" ID="{4F02ADD2-9123-48EE-9CC7-DCA1A6281BBF}" ShortID="476297422">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-10</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+													<ObjectRef Name="Ambient Bus" ID="{23D80908-2F66-4747-A30A-9AED408732D5}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="World Utterly Screwed_Birds" ID="{514B9C77-34D1-4216-9BFE-A98A2C9B1712}">
+												<AudioFileSource Name="World Just Fine_Wind" ID="{5578A17C-D343-4836-8340-A989475E6519}">
 													<Language>SFX</Language>
-													<AudioFile>World Utterly Screwed_Birds.wav</AudioFile>
+													<AudioFile>World Just Fine_Wind.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="526703242"/>
+														<MediaID ID="8993789"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{1A4EFF72-A236-4282-8A4C-6649DED43A9E}">
+													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="3"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="Ambience_Player_Path" ID="{11616E83-568E-4F41-9208-638763062D78}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="8"/>
+																<Property Name="RandomY" Type="Real64" Value="8"/>
+																<Property Name="RandomZ" Type="Real64" Value="2"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-0.50761</XPos>
+																	<YPos>0</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
 											<ActiveSourceList>
-												<ActiveSource Name="World Utterly Screwed_Birds" ID="{514B9C77-34D1-4216-9BFE-A98A2C9B1712}" Platform="Linked"/>
+												<ActiveSource Name="World Just Fine_Wind" ID="{5578A17C-D343-4836-8340-A989475E6519}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="World Utterly Screwed_Flourishes" ID="{1B690B88-211A-4431-A559-ABB1798DF5F3}" ShortID="62863467">
+										<Sound Name="World Just Fine_Flourishes" ID="{7CCB3AD6-36F8-49FA-993E-DCD10954D3D9}" ShortID="284755540">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="InitialDelay" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{9375A33A-38E5-43A2-A31E-96A1F44E2052}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+													<ObjectRef Name="Ambient Bus" ID="{23D80908-2F66-4747-A30A-9AED408732D5}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="World Utterly Screwed_Flourishes" ID="{F4FF9696-94D9-4A22-AA83-D8162E909D6F}">
+												<AudioFileSource Name="World Just Fine_Flourishes" ID="{A423F15E-8309-4B96-9289-F208DE4F8461}">
 													<Language>SFX</Language>
-													<AudioFile>World Utterly Screwed_Flourishes.wav</AudioFile>
+													<AudioFile>World Just Fine_Flourishes.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="425886651"/>
+														<MediaID ID="947248212"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{18B60D92-8D20-4C5B-BBF3-CCEF2AB7A2AC}">
+													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="3"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="Ambience_Player_Path" ID="{77E8F4E6-6B07-497C-865C-A162B0C6F844}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="8"/>
+																<Property Name="RandomY" Type="Real64" Value="8"/>
+																<Property Name="RandomZ" Type="Real64" Value="2"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-0.50761</XPos>
+																	<YPos>0</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
 											<ActiveSourceList>
-												<ActiveSource Name="World Utterly Screwed_Flourishes" ID="{F4FF9696-94D9-4A22-AA83-D8162E909D6F}" Platform="Linked"/>
+												<ActiveSource Name="World Just Fine_Flourishes" ID="{A423F15E-8309-4B96-9289-F208DE4F8461}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="World Utterly Screwed_Wind 2" ID="{F956DF55-96C3-4068-BAEA-626A159E2FB7}" ShortID="842883488">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="World Utterly Screwed_Wind 2" ID="{C1DC0DAB-A7C5-4BF7-B5FA-D4B8890E4B9C}">
-													<Language>SFX</Language>
-													<AudioFile>World Utterly Screwed_Wind 2.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="716723395"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="World Utterly Screwed_Wind 2" ID="{C1DC0DAB-A7C5-4BF7-B5FA-D4B8890E4B9C}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="World Utterly Screwed_Wind 1" ID="{E2EDB920-6054-48A4-AFB8-24C530A4BB2C}" ShortID="635221685">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="World Utterly Screwed_Wind 1" ID="{DF1CE3EF-D40A-4577-841B-72813E714A0A}">
-													<Language>SFX</Language>
-													<AudioFile>World Utterly Screwed_Wind 1.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="836271643"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="World Utterly Screwed_Wind 1" ID="{DF1CE3EF-D40A-4577-841B-72813E714A0A}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Early_game" ID="{439D1032-6664-4FD0-AD07-392B4350B380}" ShortID="842602414">
-									<PropertyList>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-									</PropertyList>
-									<ReferenceList>
-										<Reference Name="Conversion">
-											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
-										</Reference>
-										<Reference Name="OutputBus">
-											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
-										</Reference>
-									</ReferenceList>
-									<ChildrenList>
 										<Sound Name="World Just Fine_Birds" ID="{F3A9D175-BD48-42D1-AE26-98366C82083D}" ShortID="321729328">
 											<PropertyList>
 												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 												<Property Name="OverridePositioning" Type="bool" Value="True"/>
 											</PropertyList>
 											<ReferenceList>
@@ -336,7 +364,7 @@
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+													<ObjectRef Name="Ambient Bus" ID="{23D80908-2F66-4747-A30A-9AED408732D5}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -352,57 +380,11 @@
 												<ActiveSource Name="World Just Fine_Birds" ID="{B37C15F4-A18E-4035-9C07-84D0E5688B82}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="World Just Fine_Flourishes" ID="{7CCB3AD6-36F8-49FA-993E-DCD10954D3D9}" ShortID="284755540">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="World Just Fine_Flourishes" ID="{A423F15E-8309-4B96-9289-F208DE4F8461}">
-													<Language>SFX</Language>
-													<AudioFile>World Just Fine_Flourishes.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="947248212"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="World Just Fine_Flourishes" ID="{A423F15E-8309-4B96-9289-F208DE4F8461}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="World Just Fine_Wind" ID="{4F02ADD2-9123-48EE-9CC7-DCA1A6281BBF}" ShortID="476297422">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="World Just Fine_Wind" ID="{5578A17C-D343-4836-8340-A989475E6519}">
-													<Language>SFX</Language>
-													<AudioFile>World Just Fine_Wind.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="8993789"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="World Just Fine_Wind" ID="{5578A17C-D343-4836-8340-A989475E6519}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 									</ChildrenList>
-								</RandomSequenceContainer>
-								<RandomSequenceContainer Name="Mid_game" ID="{57F89207-4BA5-44AF-80D6-77EBD0566FAB}" ShortID="940156870">
+								</BlendContainer>
+								<BlendContainer Name="Mid Ambience" ID="{54148CA5-159A-4947-BDC5-1E5555B08775}" ShortID="90409000">
 									<PropertyList>
-										<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-										<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+										<Property Name="BlendBehavior" Type="int16" Value="1"/>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -414,12 +396,29 @@
 									</ReferenceList>
 									<ChildrenList>
 										<Sound Name="World Mildly Screwed_Flourishes" ID="{AC71AD18-4D70-4BAF-96E5-347D8B9D8BE8}" ShortID="91641259">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="InitialDelay" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{58F54E4D-F87B-45F5-8514-3B277C807CA2}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+													<ObjectRef Name="Ambient Bus" ID="{23D80908-2F66-4747-A30A-9AED408732D5}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -431,39 +430,53 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{B9B43BF9-1653-43C0-8D46-A710DFD4303E}">
+													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="3"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="Ambience_Player_Path" ID="{FB182F51-1E9A-4C0F-ABD4-86F4DE133C23}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="8"/>
+																<Property Name="RandomY" Type="Real64" Value="8"/>
+																<Property Name="RandomZ" Type="Real64" Value="2"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-0.50761</XPos>
+																	<YPos>0</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
 											<ActiveSourceList>
 												<ActiveSource Name="World Mildly Screwed_Flourishes" ID="{9BAE6608-9C6B-4140-B82D-F03EEAA84C9C}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="World Mildly Screwed_Birds" ID="{E0C86DD6-776F-4EF7-8C9C-CD3871DB10AB}" ShortID="380983718">
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="World Mildly Screwed_Birds" ID="{DCCFA879-545E-4DB3-A621-CA28AD3C17B0}">
-													<Language>SFX</Language>
-													<AudioFile>World Mildly Screwed_Birds.wav</AudioFile>
-													<MediaIDList>
-														<MediaID ID="831733225"/>
-													</MediaIDList>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="World Mildly Screwed_Birds" ID="{DCCFA879-545E-4DB3-A621-CA28AD3C17B0}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="World Mildly Screwed_Wind" ID="{09D82751-BFFC-4DCA-8DB0-771FB5687BA4}" ShortID="887718936">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
 												</Reference>
 												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+													<ObjectRef Name="Ambient Bus" ID="{23D80908-2F66-4747-A30A-9AED408732D5}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
@@ -475,12 +488,355 @@
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{4A4C21C6-778F-4498-835E-04991BF2F0F5}">
+													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="3"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="Ambience_Player_Path" ID="{69117BDB-944D-4570-ADFF-FADFDE3A8BAA}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="8"/>
+																<Property Name="RandomY" Type="Real64" Value="8"/>
+																<Property Name="RandomZ" Type="Real64" Value="2"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-0.50761</XPos>
+																	<YPos>0</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
 											<ActiveSourceList>
 												<ActiveSource Name="World Mildly Screwed_Wind" ID="{DBE199FF-D996-4BBB-B902-BDBC71879105}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
+										<Sound Name="World Mildly Screwed_Birds" ID="{E0C86DD6-776F-4EF7-8C9C-CD3871DB10AB}" ShortID="380983718">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambient Bus" ID="{23D80908-2F66-4747-A30A-9AED408732D5}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="World Mildly Screwed_Birds" ID="{DCCFA879-545E-4DB3-A621-CA28AD3C17B0}">
+													<Language>SFX</Language>
+													<AudioFile>World Mildly Screwed_Birds.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="831733225"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{8188CD55-E973-4C1F-8C53-F915A13CD745}">
+													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="3"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="Ambience_Player_Path" ID="{6415308D-52F0-4520-BD5A-BABB3135FA98}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="8"/>
+																<Property Name="RandomY" Type="Real64" Value="8"/>
+																<Property Name="RandomZ" Type="Real64" Value="2"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-0.50761</XPos>
+																	<YPos>0</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="World Mildly Screwed_Birds" ID="{DCCFA879-545E-4DB3-A621-CA28AD3C17B0}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
-								</RandomSequenceContainer>
+								</BlendContainer>
+								<BlendContainer Name="Late Ambience" ID="{00695ABA-E0C8-43A2-96AF-C7E6948AE851}" ShortID="446559734">
+									<PropertyList>
+										<Property Name="BlendBehavior" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="World Utterly Screwed_Flourishes" ID="{1B690B88-211A-4431-A559-ABB1798DF5F3}" ShortID="62863467">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="InitialDelay" Type="Real64">
+													<ModifierList>
+														<ModifierInfo>
+															<Modifier Name="" ID="{11877B1E-2C15-424A-B480-A608A9C2C58E}">
+																<PropertyList>
+																	<Property Name="Enabled" Type="bool" Value="True"/>
+																	<Property Name="Max" Type="Real64" Value="2"/>
+																</PropertyList>
+															</Modifier>
+														</ModifierInfo>
+													</ModifierList>
+												</Property>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambient Bus" ID="{23D80908-2F66-4747-A30A-9AED408732D5}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="World Utterly Screwed_Flourishes" ID="{F4FF9696-94D9-4A22-AA83-D8162E909D6F}">
+													<Language>SFX</Language>
+													<AudioFile>World Utterly Screwed_Flourishes.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="425886651"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{99B9FBD5-56E4-4BBB-ADC5-AFC713ED56B4}">
+													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="3"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="Ambience_Player_Path" ID="{8BDE5F11-7BAB-46A1-87A6-9AFE317EEA8D}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="8"/>
+																<Property Name="RandomY" Type="Real64" Value="8"/>
+																<Property Name="RandomZ" Type="Real64" Value="2"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-0.50761</XPos>
+																	<YPos>0</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="World Utterly Screwed_Flourishes" ID="{F4FF9696-94D9-4A22-AA83-D8162E909D6F}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="World Utterly Screwed_Birds" ID="{15D3DDB9-CB88-4F78-83A1-C30F467C422C}" ShortID="592788793">
+											<PropertyList>
+												<Property Name="3DPosition" Type="int16" Value="2"/>
+												<Property Name="3DSpatialization" Type="int16" Value="1"/>
+												<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Ambient Bus" ID="{23D80908-2F66-4747-A30A-9AED408732D5}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="World Utterly Screwed_Birds" ID="{514B9C77-34D1-4216-9BFE-A98A2C9B1712}">
+													<Language>SFX</Language>
+													<AudioFile>World Utterly Screwed_Birds.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="526703242"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<PositioningInfo>
+												<Position Name="" ID="{2A27C43D-ACBA-493E-8AAD-6213B61EDF61}">
+													<PropertyList>
+														<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+														<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="3"/>
+													</PropertyList>
+													<ChildrenList>
+														<Path2D Name="Ambience_Player_Path" ID="{E3250D5C-41D3-47E2-B612-9F084FA26C31}">
+															<PropertyList>
+																<Property Name="RandomX" Type="Real64" Value="8"/>
+																<Property Name="RandomY" Type="Real64" Value="8"/>
+																<Property Name="RandomZ" Type="Real64" Value="2"/>
+															</PropertyList>
+															<PointList>
+																<Point>
+																	<XPos>-0.50761</XPos>
+																	<YPos>0</YPos>
+																	<Flags>12</Flags>
+																	<Time>0</Time>
+																</Point>
+															</PointList>
+														</Path2D>
+													</ChildrenList>
+												</Position>
+											</PositioningInfo>
+											<ActiveSourceList>
+												<ActiveSource Name="World Utterly Screwed_Birds" ID="{514B9C77-34D1-4216-9BFE-A98A2C9B1712}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<RandomSequenceContainer Name="Late Wind" ID="{5D7D16DB-9583-48F2-8501-6E3B72E702C5}" ShortID="852287994">
+											<PropertyList>
+												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
+												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+												<Property Name="RandomAvoidRepeating" Type="bool" Value="False"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-2</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<Sound Name="World Utterly Screwed_Wind 1" ID="{E2EDB920-6054-48A4-AFB8-24C530A4BB2C}" ShortID="635221685">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Ambient Bus" ID="{23D80908-2F66-4747-A30A-9AED408732D5}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="World Utterly Screwed_Wind 1" ID="{DF1CE3EF-D40A-4577-841B-72813E714A0A}">
+															<Language>SFX</Language>
+															<AudioFile>World Utterly Screwed_Wind 1.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="836271643"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{92925486-EC8E-4205-94E9-4E96E8BFEC85}">
+															<PropertyList>
+																<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="3"/>
+															</PropertyList>
+															<ChildrenList>
+																<Path2D Name="Ambience_Player_Path" ID="{1B28E3DE-EB17-4C04-9E50-B3CA0148B6AF}">
+																	<PropertyList>
+																		<Property Name="RandomX" Type="Real64" Value="8"/>
+																		<Property Name="RandomY" Type="Real64" Value="8"/>
+																		<Property Name="RandomZ" Type="Real64" Value="2"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-0.50761</XPos>
+																			<YPos>0</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+															</ChildrenList>
+														</Position>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="World Utterly Screwed_Wind 1" ID="{DF1CE3EF-D40A-4577-841B-72813E714A0A}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+												<Sound Name="World Utterly Screwed_Wind 2" ID="{F956DF55-96C3-4068-BAEA-626A159E2FB7}" ShortID="842883488">
+													<PropertyList>
+														<Property Name="3DPosition" Type="int16" Value="2"/>
+														<Property Name="3DSpatialization" Type="int16" Value="1"/>
+													</PropertyList>
+													<ReferenceList>
+														<Reference Name="Conversion">
+															<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{5CE24F5E-945E-4EF9-8ECC-83A6A05114FA}"/>
+														</Reference>
+														<Reference Name="OutputBus">
+															<ObjectRef Name="Ambient Bus" ID="{23D80908-2F66-4747-A30A-9AED408732D5}" WorkUnitID="{BDB60BDC-6355-4556-83FF-7C6DF03A934B}"/>
+														</Reference>
+													</ReferenceList>
+													<ChildrenList>
+														<AudioFileSource Name="World Utterly Screwed_Wind 2" ID="{C1DC0DAB-A7C5-4BF7-B5FA-D4B8890E4B9C}">
+															<Language>SFX</Language>
+															<AudioFile>World Utterly Screwed_Wind 2.wav</AudioFile>
+															<MediaIDList>
+																<MediaID ID="716723395"/>
+															</MediaIDList>
+														</AudioFileSource>
+													</ChildrenList>
+													<PositioningInfo>
+														<Position Name="" ID="{8C671DBB-8BE2-4662-8300-682C4ED88E90}">
+															<PropertyList>
+																<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+																<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+																<Property Name="PlayMechanismTransitionTime" Type="Real64" Value="3"/>
+															</PropertyList>
+															<ChildrenList>
+																<Path2D Name="Ambience_Player_Path" ID="{182331E5-B5E4-4662-86A3-329E1AF4DC69}">
+																	<PropertyList>
+																		<Property Name="RandomX" Type="Real64" Value="8"/>
+																		<Property Name="RandomY" Type="Real64" Value="8"/>
+																		<Property Name="RandomZ" Type="Real64" Value="2"/>
+																	</PropertyList>
+																	<PointList>
+																		<Point>
+																			<XPos>-0.50761</XPos>
+																			<YPos>0</YPos>
+																			<Flags>12</Flags>
+																			<Time>0</Time>
+																		</Point>
+																	</PointList>
+																</Path2D>
+															</ChildrenList>
+														</Position>
+													</PositioningInfo>
+													<ActiveSourceList>
+														<ActiveSource Name="World Utterly Screwed_Wind 2" ID="{C1DC0DAB-A7C5-4BF7-B5FA-D4B8890E4B9C}" Platform="Linked"/>
+													</ActiveSourceList>
+												</Sound>
+											</ChildrenList>
+										</RandomSequenceContainer>
+									</ChildrenList>
+								</BlendContainer>
 							</ChildrenList>
 							<PositioningInfo>
 								<Position Name="" ID="{A335688F-27B2-4F15-BF88-2995E2129E3D}">
@@ -511,35 +867,51 @@
 							<GroupingInfo>
 								<GroupingBehaviorList>
 									<GroupingBehavior>
-										<ItemRef Name="Mid_game" ID="{57F89207-4BA5-44AF-80D6-77EBD0566FAB}"/>
+										<ItemRef Name="Early Ambience" ID="{76407B31-93A1-47AB-BF93-96FB516BB2BB}"/>
+										<PropertyList>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>5</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>5</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="Early_game" ID="{439D1032-6664-4FD0-AD07-392B4350B380}"/>
+										<ItemRef Name="Mid Ambience" ID="{54148CA5-159A-4947-BDC5-1E5555B08775}"/>
+										<PropertyList>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>5</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>5</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
 									</GroupingBehavior>
 									<GroupingBehavior>
-										<ItemRef Name="Late_game" ID="{F5F910EA-CFB9-4BAB-BC52-AAA2154A5905}"/>
+										<ItemRef Name="Late Ambience" ID="{00695ABA-E0C8-43A2-96AF-C7E6948AE851}"/>
+										<PropertyList>
+											<Property Name="FadeInTime" Type="Real64">
+												<ValueList>
+													<Value>5</Value>
+												</ValueList>
+											</Property>
+											<Property Name="FadeOutTime" Type="Real64">
+												<ValueList>
+													<Value>5</Value>
+												</ValueList>
+											</Property>
+										</PropertyList>
 									</GroupingBehavior>
 								</GroupingBehaviorList>
-								<GroupingList>
-									<Grouping>
-										<SwitchRef Name="Late" ID="{02E2790D-9ECA-4338-B554-81D6D57FF95E}"/>
-										<ItemList>
-											<ItemRef Name="Late_game" ID="{F5F910EA-CFB9-4BAB-BC52-AAA2154A5905}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="Mid" ID="{B2866215-EDE7-41DB-B6C9-A17E51FC1CC5}"/>
-										<ItemList>
-											<ItemRef Name="Mid_game" ID="{57F89207-4BA5-44AF-80D6-77EBD0566FAB}"/>
-										</ItemList>
-									</Grouping>
-									<Grouping>
-										<SwitchRef Name="Early" ID="{9A8FB215-DE66-4DC2-8496-2E856825A3F3}"/>
-										<ItemList>
-											<ItemRef Name="Early_game" ID="{439D1032-6664-4FD0-AD07-392B4350B380}"/>
-										</ItemList>
-									</Grouping>
-								</GroupingList>
 							</GroupingInfo>
 						</SwitchContainer>
 					</ChildrenList>

@@ -137,20 +137,6 @@
 												</Reference>
 											</ReferenceList>
 										</Action>
-										<Action Name="" ID="{0E17E149-C953-4004-92AA-D97243A2819E}" ShortID="1049472462">
-											<PropertyList>
-												<Property Name="Inclusion" Type="bool">
-													<ValueList>
-														<Value>False</Value>
-													</ValueList>
-												</Property>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Target">
-													<ObjectRef Name="Fire sounds 01" ID="{AD795D24-7632-425C-91BD-F271986C37E3}" WorkUnitID="{955DBD1F-E096-4F40-8502-F78FFFC28923}"/>
-												</Reference>
-											</ReferenceList>
-										</Action>
 									</ChildrenList>
 								</Event>
 								<Event Name="Fireball_cast" ID="{61105158-FD6E-4571-A53C-26619D3D6614}">
@@ -472,7 +458,21 @@
 								</Event>
 							</ChildrenList>
 						</Folder>
-						<Folder Name="Ambience" ID="{3DAE37A0-B122-41AC-B32C-CDD0A14033CD}" ShortID="903337998"/>
+						<Folder Name="Ambience" ID="{3DAE37A0-B122-41AC-B32C-CDD0A14033CD}" ShortID="903337998">
+							<ChildrenList>
+								<Event Name="Play_ambience" ID="{62D3B7FF-CA77-4528-9E98-DD55A629B4F6}">
+									<ChildrenList>
+										<Action Name="" ID="{6761F004-C633-4748-8838-12E5E2D5F8C2}" ShortID="114743989">
+											<ReferenceList>
+												<Reference Name="Target">
+													<ObjectRef Name="Ambience_Player" ID="{7D8AFBA5-008D-4BCC-B511-637A4A17F2D0}" WorkUnitID="{648AA360-5D9D-4189-B9B8-9C7719444F31}"/>
+												</Reference>
+											</ReferenceList>
+										</Action>
+									</ChildrenList>
+								</Event>
+							</ChildrenList>
+						</Folder>
 					</ChildrenList>
 				</Folder>
 			</ChildrenList>
